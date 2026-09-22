@@ -7,8 +7,8 @@ Prices are **rough USD ranges** to help you budget. They vary a lot by country
 and store. Brand names are examples only; use the search terms to find the
 equivalent locally. Check that every item is in stock before you order.
 
-**Estimated total:** about **$4,000 (budget) to $10,000 (mid-range)**, plus labour
-for the ceiling light ledge and electrics.
+**Estimated total:** about **$3,800 (budget) to $9,000 (mid-range)**. Everything is
+plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ---
 
@@ -25,9 +25,9 @@ for the ceiling light ledge and electrics.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | LED cove strip | **2700K warm white, COB type** (no visible dots), about 15 m (measure the room perimeter), with aluminium channel and diffuser | "2700K COB LED strip 24V", "LED aluminium profile" | $60–150 |
-| ☐ | Driver + dimmer | 24V power supply sized to the strip + wall dimmer or smart dimmer (guests can set the mood) | "24V LED driver", "LED strip dimmer" | $30–80 |
-| ☐ | Cove ledge (labour) | Plaster or MDF ledge 10–15 cm below the ceiling that hides the strip. Hire a carpenter and an **electrician** | – | $150–500 |
+| ☐ | Ceiling light | Replaces the bare ceiling light: **warm dimmable flush-mount with a dark linen drum shade**, fits the existing ceiling point (simple fixture swap) | "linen drum flush mount ceiling light dark" | $40–120 |
+| ☐ | Dimmable smart bulbs | 2700K, so guests can set the mood from a switch or app | "2700K dimmable smart bulb" | $20–50 |
+| ☐ | TV back glow | **USB LED strip** stuck to the back of the TV, powered by the TV's USB port, 2700K warm white (no RGB) | "USB LED TV backlight warm white" | $15–30 |
 | ☐ | Wall sconces × 2 | Warm, small, black or brass, **plug-in** if you can't rewire | "plug in wall sconce black" | $60–150 |
 | ☐ | Swing-arm wall lamps × 2 (bedside) | Black metal, plug-in, with switch on the cord | "swing arm wall lamp plug in black" | $50–120 |
 | ☐ | Tripod floor lamp | Walnut legs, linen drum shade | "wooden tripod floor lamp linen shade" | $60–150 |
@@ -111,7 +111,7 @@ for the ceiling light ledge and electrics.
 ## Order of work
 
 1. Walls: paint or limewash, then the stone wallpaper on the bed wall.
-2. Ceiling cove ledge + LED strip + dimmer (electrician).
+2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Slat panels on the TV wall.
 5. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
