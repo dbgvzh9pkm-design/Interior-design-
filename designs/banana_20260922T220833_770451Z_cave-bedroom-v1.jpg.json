@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:08:33.772145+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "d7b3fc378b9266cd49378e36dac7155f845e7f860c57e67076f37c8e8e74389b",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "6ea6116aadc08d1877e3fc1a72e46e25412b69fa51abf4c052c35ff2620d97bd",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "61d446688f89c7714de88a99f3ef304215078961d7f0d8e21d52fe4fc824ca04",
+      "bytes": 98884,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "empty bedroom photo from user's video",
+      "role": "object",
+      "purpose": "preserve room geometry, camera view, window and floor",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T220833_770451Z_cave-bedroom-v1.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 611224,
+    "sha256": "25a726c49e131f4182309bb2bcf65062f38e4447f0f38b7608847fa2a21e4986",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2419
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
