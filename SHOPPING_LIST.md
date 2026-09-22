@@ -21,7 +21,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 |---|---|---|---|---|
 | ☐ | Charcoal wall paint | **Scrubbable matte or eggshell** (not flat) so scuffs wipe off; very dark charcoal, not pure black; about 2 to 3 gallons for 3 walls + primer | "washable matte charcoal paint" | $80–150 |
 | ☐ | *or* charcoal limewash | For the cement / cave texture look. Harder to touch up after guests, so **seal it** with a matte clear coat | "limewash paint charcoal", "microcement effect paint" | $100–200 |
-| ☐ | Stone-effect wallpaper (right wall) | Peel-and-stick **vinyl** (wipeable), dark slate or stone texture. Wall is 509 × 287 cm ≈ 14.6 m²; **buy 16 m²** | "peel and stick slate stone wallpaper dark" | $60–200 |
+| ☐ | Slate-effect feature wall (bed wall) | **Smooth, large-format dark charcoal slate look with fine hairline cracks**, not stacked stone. Options: wipeable slate-effect vinyl wallpaper, flexible thin slate-veneer sheets, or charcoal microcement / limewash with a sealed finish. Wall is 509 × 287 cm ≈ 14.6 m²; **buy 16 m²** | "large slate effect wallpaper charcoal", "flexible slate veneer sheet" | $80–400 |
 
 ## 2. Lighting
 
@@ -111,7 +111,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ## Order of work
 
-1. Walls: paint or limewash, then the stone wallpaper on the bed wall.
+1. Walls: paint or limewash, then the slate-effect finish on the bed wall.
 2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
