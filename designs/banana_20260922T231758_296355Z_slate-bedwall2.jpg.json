@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:17:58.298215+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "c8e5b25fd4a006e7ceadbe9f310a64b2b1123d596175c9087d41d9e2d562d465",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "643af758b41342d8b75747c81ea2251385f41371c01a5b8635e48e1410c5624b",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "7432807f7865295502efae45ac0362b43396133fcf672af102ee51ef3a5ff821",
+      "bytes": 644714,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "approved view to edit (slate-bedwall2)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "3fd72e10bc7286a7aaeed08960822f77fac67ced2577ca81a3845d4f0d5f9fe5",
+      "bytes": 676427,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "all-slate chosen view",
+      "role": "style",
+      "purpose": "wall finish texture and colour only",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T231758_296355Z_slate-bedwall2.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 657537,
+    "sha256": "cdf3f33224b7cd60f872f2f4fc81a20cc9190ae58e442cd73e3154e703df016d",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2326
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
