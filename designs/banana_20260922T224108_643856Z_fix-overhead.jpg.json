@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:41:08.645764+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "77463fa3dda979f2bfb87fc9c93ac9c71b6fa3a4bcac67620613250d8bdb2243",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "2db8b1223f8d0520a0778c9ed5fc2e9124b244df0a8e24cfa73ea57607f0b9b6",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "58a1229128278d24f271df82f6bb9d2190d37cd5bb95620df0bcc3d19c651a26",
+      "bytes": 631384,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "final design view from the entrance",
+      "role": "object",
+      "purpose": "furniture, finishes and layout to show from above",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T224108_643856Z_fix-overhead.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 576436,
+    "sha256": "f203c3d20334b2acf63e74a7db81f5029576ba56992156b6fe09b3125546ddd6",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2370
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

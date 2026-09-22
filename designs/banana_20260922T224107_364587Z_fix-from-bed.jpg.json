@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:41:07.366538+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "533c99f4bfd8da207463aeb61def9acc15bda03c9883d8d89f611b248052c47b",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "0570f75d9f95698fca20558a716c26453c02734c556b7025c5cb20bb4362b6b0",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "b29de6ea96a8591998f4aa5cb87126b58000bd2c3614a87b4c2733ea2b34c7e3",
+      "bytes": 644558,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "final design view from the bed",
+      "role": "object",
+      "purpose": "scene to fix: keep camera, furniture and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T224107_364587Z_fix-from-bed.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 641070,
+    "sha256": "b361f48ab627e825d495ec613ed86c7686d78c9013b2849cf2498acefeeb979b",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 1941
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
