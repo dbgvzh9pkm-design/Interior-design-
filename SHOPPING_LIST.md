@@ -48,8 +48,8 @@ for the ceiling light ledge and electrics.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wardrobe | About 100 cm wide × 60 cm deep × 200–236 cm tall, dark walnut or black-brown, **hanging rail + 2–3 shelves**. E.g. IKEA PAX frame with dark doors (mid) or IKEA KLEPPSTAD (budget) | "2 door wardrobe walnut", "IKEA PAX" | $150–700 |
-| ☐ | Full-length mirror | On the wardrobe door, or a separate slim walnut-frame floor mirror | "full length mirror walnut frame" | $50–150 |
+| ☐ | Wall-mounted clothes rail | About 100 cm wide, **black iron pipe brackets + walnut shelf on top**, fixed at about 170 cm height **into studs or with heavy-duty anchors** (clothes are heavy) | "industrial pipe clothes rail with shelf wall mounted" | $50–150 |
+| ☐ | Full-length mirror | Slim walnut-frame mirror, wall-mounted near the rail or door | "full length mirror walnut frame" | $50–150 |
 | ☐ | Luggage rack | Folding, wood with straps. Keeps suitcases off the bed | "folding luggage rack wood" | $30–60 |
 | ☐ | Hangers × 20 | Matching dark wood or black velvet | "black wooden hangers" | $20–35 |
 | ☐ | Wall hooks × 3–4 | By the door, for coats, bags and towels | "black wall hooks" | $15–30 |
@@ -88,7 +88,7 @@ for the ceiling light ledge and electrics.
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
 | ☐ | 3 framed prints (above bed) | Moody mountain / earth-tone abstracts, black or walnut frames. Hang with **secure hooks** (not over guests' heads with loose hangers) | "dark mountain landscape print framed" | $60–180 |
-| ☐ | Large canvas | Earth tones. Now optional, since the wardrobe takes its wall | "abstract earth tone canvas large" | $50–150 |
+| ☐ | Large canvas | Earth tones. Optional, since the clothes rail takes its wall | "abstract earth tone canvas large" | $50–150 |
 | ☐ | Floating walnut shelf | About 80–100 cm | "floating shelf walnut" | $30–60 |
 | ☐ | Plants | **Realistic artificial** fiddle-leaf fig + trailing plant (no watering between guests) | "artificial fiddle leaf fig" | $40–120 |
 | ☐ | Tray, books, bronze-look figure | For the coffee table and console | – | $40–80 |
@@ -114,6 +114,6 @@ for the ceiling light ledge and electrics.
 2. Ceiling cove ledge + LED strip + dimmer (electrician).
 3. Curtain tracks: window and around the bathroom glass.
 4. Slat panels on the TV wall.
-5. Big furniture: bed, sofa, wardrobe.
+5. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
 6. TV, lamps, rug, bedding, art and decor.
 7. Safety kit, then photograph the room for the listing at dusk with all warm lights on.
