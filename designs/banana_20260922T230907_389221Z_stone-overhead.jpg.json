@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:09:07.391083+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "ab930276a43909eaebf619d717a6509fd2c1b1205f0f3a09deb20e4e539302e9",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "acee8cf2655e8cbbb7307cdd5bc4a4e3bf4af54b7812b8e0452b66e28a8c9a62",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "27ea1c68517209941927a97619e1149f4788d57a1f3e1e521b5321cba882e5cf",
+      "bytes": 552744,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "fixed view to edit (stone-overhead)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "054ae00cb3feba2f76a1c2feff63b2e9bd990f38e22cd3562533837d9a7eb7d3",
+      "bytes": 656911,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "chosen view with stone wall",
+      "role": "style",
+      "purpose": "stone-effect wallpaper texture and colour",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T230907_389221Z_stone-overhead.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 610483,
+    "sha256": "566d3b5595448e2c2c18a958d9ae99a58d10548ecc77a730cc7d95bce3dfa8ac",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2278
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

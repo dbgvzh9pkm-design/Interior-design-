@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:09:07.689701+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "3c5907b5741e761cb4e6bc1d2ddde6dd8424593e81163ee919f3c8d07527e577",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "5269b07edbb8a3fc129217d3a4cf9205d09a7da6a98d51fc273f1acb3fafeef9",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "7432807f7865295502efae45ac0362b43396133fcf672af102ee51ef3a5ff821",
+      "bytes": 644714,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "fixed view to edit (stone-bedwall)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "054ae00cb3feba2f76a1c2feff63b2e9bd990f38e22cd3562533837d9a7eb7d3",
+      "bytes": 656911,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "chosen view with stone wall",
+      "role": "style",
+      "purpose": "stone-effect wallpaper texture and colour",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T230907_687524Z_stone-bedwall.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 732144,
+    "sha256": "aacec488828979df8aa1f7453ced111bbd64559d0c1e830c9dbef24a7af7ffb4",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2311
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

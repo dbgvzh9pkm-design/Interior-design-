@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:09:07.697472+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "021934712caf0817bcbf619bde4cf921f2eeef2d94c2e8021d07090c4a2dd9b5",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "f5b72fcebd642201b7a883a33619d1c7f7068bca68e1dbd6382493b40102d72f",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "0f60fd152c463b2e96380dc15af3946c8149e057ffe6398d462da216133d1a1d",
+      "bytes": 658522,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "fixed view to edit (stone-sofa)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "054ae00cb3feba2f76a1c2feff63b2e9bd990f38e22cd3562533837d9a7eb7d3",
+      "bytes": 656911,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "chosen view with stone wall",
+      "role": "style",
+      "purpose": "stone-effect wallpaper texture and colour",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T230907_695508Z_stone-sofa.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 676160,
+    "sha256": "d0981ef71b54cac61d4d3f5cebe7e2c2b49518a05ae45f872f15ab24a5e2600c",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2281
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
