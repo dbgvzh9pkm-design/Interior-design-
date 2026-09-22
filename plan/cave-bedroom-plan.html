@@ -142,10 +142,10 @@
 <main>
   <header>
     <h1>Cave Bedroom Plan</h1>
-    <p>Where every piece goes, measured from the walls, with mounting heights for everything on the walls. It matches the photo views and the 3D walkthrough.</p>
+    <p>Where every piece goes in your measured room (3.02 × 6.14 m, ceiling 2.87 m), measured from the walls, with mounting heights for everything on the walls. It matches the 3D walkthrough.</p>
   </header>
 
-  <div class="note"><strong>These numbers are based on an estimated room of 380 × 600 cm.</strong> They came from your video, not a tape measure. Send the measurements listed at the bottom of this page and the plan will be redone to your real room before you buy or drill anything.</div>
+  <div class="note"><strong>Room size is measured; three things are still assumed:</strong> the window size and position, the entry door width, and the bathroom's glass door being on the corridor side. The step in one wall (139 + 73 cm) isn't drawn yet. Confirm those before drilling for the window curtain track or the bathroom curtain track.</div>
 
   <section>
     <h2>Floor plan</h2>
@@ -167,10 +167,10 @@
 
   <section>
     <h2>Exact positions</h2>
-    <p class="mono" style="color:var(--muted);margin:0 0 10px">“From TV wall” is the left wall seen from the door; “from door wall” is measured toward the window. All in cm.</p>
+    <p class="mono" style="color:var(--muted);margin:0 0 10px">“From left wall” is the 614 cm wall on your left as you walk in; “from door wall” is measured toward the window. All in cm.</p>
     <div class="sheet table-scroll">
       <table>
-        <thead><tr><th>#</th><th>Item</th><th>Size (W × D)</th><th>From TV wall</th><th>From door wall</th><th>Height / mounting</th></tr></thead>
+        <thead><tr><th>#</th><th>Item</th><th>Size (W × D)</th><th>From left wall</th><th>From door wall</th><th>Height / mounting</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>
@@ -179,23 +179,21 @@
   <section>
     <h2>Walls</h2>
     <div class="walls">
-      <div class="sheet"><h3>Bed wall (right)</h3><p>Stone-effect wallpaper from the bathroom box to the window corner: 420 × 270 cm ≈ 11.3 m², buy 12.5 m². The headboard, shelf, three paintings and two sconces all go on this wall.</p></div>
-      <div class="sheet"><h3>TV wall (left)</h3><p>Charcoal paint. Walnut slat panels, 4 × 60 cm wide × 240 cm tall, from 210 to 450 cm along the wall, starting at the floor. The clothes rail and console are nearer the door.</p></div>
-      <div class="sheet"><h3>Window wall (far)</h3><p>Charcoal paint. Ceiling curtain track 12 cm out from the wall, 40–300 cm from the TV wall. The sofa back sits 17 cm off the wall so the curtains hang freely.</p></div>
-      <div class="sheet"><h3>Door wall (near)</h3><p>Charcoal paint. Entry door 30–120 cm from the TV wall, three hooks just beside it. The glass bathroom fills the corner on the bed side.</p></div>
+      <div class="sheet"><h3>Right wall (509 cm, sockets)</h3><p>Stone-effect wallpaper, bathroom glass to window corner: 509 × 287 cm ≈ 14.6 m², buy 16 m². Paintings, ledge shelf, sconces, swing-arm lamp and the clothes rail go on this wall.</p></div>
+      <div class="sheet"><h3>Left wall (614 cm)</h3><p>Charcoal paint. Walnut slat panels, 3 × 60 cm × 240 cm tall, from 305 to 485 cm along the wall, behind the TV. Console at 185–265, hooks in the corridor at 35–65.</p></div>
+      <div class="sheet"><h3>Window wall (302 cm)</h3><p>Charcoal paint. Ceiling curtain track 12 cm out from the wall, 70–280 cm from the left wall. The sofa back sits 17 cm off the wall so the curtains hang freely.</p></div>
+      <div class="sheet"><h3>Bathroom glass (222 cm face)</h3><p>Curtain wall on an L-shaped ceiling track, closed all the time behind the bed. It doubles as a soft, full-height headboard backdrop.</p></div>
     </div>
   </section>
 
   <section>
-    <h2>Measure these to make it exact</h2>
+    <h2>Still to measure</h2>
     <ol class="measure">
-      <li>Room width, TV wall to bed wall, at floor level.</li>
-      <li>Room length, door wall to window wall.</li>
-      <li>Ceiling height.</li>
-      <li>Window: width, height, sill height, and distance from the TV-wall corner.</li>
-      <li>Entry door: width, distance from the TV-wall corner, and which way it swings.</li>
-      <li>Bathroom glass box: width and depth, and where its glass door is and how far it swings.</li>
-      <li>Where the ceiling light point, the sockets and the TV aerial or internet point are.</li>
+      <li>Window: width, height, sill height, and distance from the left corner.</li>
+      <li>Entry door: width, and which way it swings.</li>
+      <li>Bathroom: where its glass door is, and which way it swings.</li>
+      <li>The 139 + 73 cm step: which wall it is on.</li>
+      <li>Where the ceiling light point and the TV aerial or internet point are.</li>
     </ol>
   </section>
 
@@ -204,8 +202,8 @@
 
 <script>
 (function () {
-  // Room in metres. x: from TV wall (left, seen from the door). z: from door wall toward window.
-  const W = 3.8, L = 6.0;
+  // Room in metres. x: from the left wall (seen from the door). z: from the door wall toward the window.
+  const W = 3.02, L = 6.14;
   const S = 100, M = 58;          // px per metre, margin
   const X = x => M + x * S;
   const Y = z => M + (L - z) * S;
@@ -213,41 +211,42 @@
 
   // one source of truth: drawing, legend and table all read from here
   const items = [
-    { g: 'Sleeping', n: 'Queen bed + walnut headboard', r: [1.75, 3.80, 2.30, 3.95], size: '165 × 205', h: 'Headboard top 110. Headboard against the bed wall.', cls: 'p-item' },
-    { g: 'Sleeping', n: 'Slim bedside table', r: [3.40, 3.80, 1.98, 2.28], size: '30 × 40', h: 'Height 50. Slim so it clears the bathroom curtain.', cls: 'p-item' },
-    { g: 'Sleeping', n: 'Swing-arm wall lamp', pt: [3.62, 2.13], size: 'arm ≈ 35', h: 'Mount at 130, above the bedside table', wall: true, bo: [-20, 0] },
-    { g: 'Sleeping', n: 'Floating walnut shelf', r: [3.58, 3.80, 2.55, 3.65], size: '110 × 22', h: 'Top of shelf at 145', cls: 'p-item', bo: [-26, -40] },
-    { g: 'Sleeping', n: 'Paintings × 3, in a row', r: [3.76, 3.80, 2.42, 3.82], size: '40 × 50 each, 10 apart', h: 'Bottom edge 165, top 215', cls: 'p-item', wall: true, bo: [-14, 30] },
-    { g: 'Sleeping', n: 'Wall sconces × 2', pts: [[3.74, 2.35], [3.74, 3.90]], size: '—', h: 'Centre at 190, either side of the paintings', wall: true },
-    { g: 'Lounge', n: 'Cognac leather L-sofa (main)', r: [1.15, 3.80, 4.98, 5.83], size: '265 × 85', h: 'Back 17 cm off the window wall', cls: 'p-leather' },
-    { g: 'Lounge', n: 'L-sofa chaise (against bed wall)', r: [2.85, 3.80, 4.35, 4.98], size: '95 × 63 extra', h: 'Total return length 148', cls: 'p-leather' },
-    { g: 'Lounge', n: 'Walnut coffee table', r: [1.40, 2.40, 4.26, 4.66], size: '100 × 40', h: 'Height 40', cls: 'p-item' },
-    { g: 'Lounge', n: 'Rug', r: [0.90, 2.90, 3.95, 5.35], size: '200 × 140', h: 'Front edge tucked under the sofa', cls: 'p-soft', under: true },
-    { g: 'Lounge', n: 'Tripod floor lamp', c: [0.75, 5.60, 0.27], size: '⌀ 55 base', h: 'Shade top ≈ 160', cls: 'p-item' },
-    { g: 'Lounge', n: 'Plant (artificial)', c: [0.30, 5.25, 0.18], size: '⌀ 35 pot', h: '≈ 150 tall', cls: 'p-item' },
-    { g: 'TV wall', n: 'Walnut slat panels', r: [0.00, 0.04, 2.10, 4.50], size: '4 × 60 = 240 wide', h: 'Floor to 240', cls: 'p-item', wall: true },
-    { g: 'TV wall', n: '65″ TV on tripod stand', c: [0.62, 3.30, 0.38], size: '145 wide, ⌀ 76 legs', h: 'Screen centre at 118. Turn about 60° off the wall to face between the bed and sofa.', cls: 'p-item', tv: true },
-    { g: 'TV wall', n: 'Slim console', r: [0.00, 0.30, 1.95, 2.75], size: '80 × 30', h: 'Height 80', cls: 'p-item' },
-    { g: 'TV wall', n: 'Clothes rail + shelf', r: [0.00, 0.30, 0.75, 1.80], size: '105 × 30', h: 'Rail at 170, shelf at 195. Fix into studs or with heavy-duty anchors.', cls: 'p-item' },
-    { g: 'TV wall', n: 'Luggage rack', r: [0.05, 0.50, 0.95, 1.55], size: '60 × 45', h: 'Under the rail', cls: 'p-soft', bo: [30, 0] },
-    { g: 'Entrance', n: 'Entry door', door: [0.30, 1.20], size: '90', h: 'Existing', },
-    { g: 'Entrance', n: 'Wall hooks × 3', pts: [[1.35, 0.03], [1.50, 0.03], [1.65, 0.03]], size: '15 apart', h: 'At 175', wall: true },
-    { g: 'Entrance', n: 'Glass bathroom (existing)', r: [2.00, 3.80, 0.00, 1.80], size: '180 × 180', h: 'Glass door on the room side, 95–170 from door wall', glass: true },
-    { g: 'Entrance', n: 'Bathroom curtain on L-shaped ceiling track', track: true, size: 'track 192 + 192', h: 'Track 12 cm outside the glass. Fabric 580–770 cm total width so panels overlap.' },
-    { g: 'Window', n: 'Window (existing)', win: [1.20, 2.20], size: '100 wide', h: 'Sill ≈ 120, top ≈ 230' },
-    { g: 'Window', n: 'Window curtains on ceiling track', r: [0.40, 3.00, 5.86, 5.90], size: 'track 260', h: 'Ceiling, 12 cm from the wall; 2 floor-length panels', curtain: true },
-    { g: 'Ceiling', n: 'Drum ceiling light', c: [1.90, 3.00, 0.3], size: '⌀ 60', h: 'Replaces the existing light point (position assumed)', cls: 'p-soft', ceiling: true },
+    { g: 'Sleeping', n: 'Queen bed, headboard against the curtained bathroom glass', r: [1.07, 2.72, 1.20, 3.25], size: '165 × 205', h: 'Headboard top 110; bed runs toward the window', cls: 'p-item' },
+    { g: 'Sleeping', n: 'Slim bedside table (right)', r: [2.72, 3.02, 1.25, 1.65], size: '30 × 40', h: 'Height 50. Sockets are on this wall.', cls: 'p-item' },
+    { g: 'Sleeping', n: 'Slim bedside table (left) + table lamp', r: [0.77, 1.07, 1.25, 1.65], size: '30 × 40', h: 'Height 50', cls: 'p-item', bo: [-16, 0] },
+    { g: 'Sleeping', n: 'Swing-arm wall lamp', pt: [2.99, 1.45], size: 'arm ≈ 30', h: 'Mount at 130 on the right wall', wall: true, bo: [-6, -16] },
+    { g: 'Sleeping', n: 'Paintings × 3, in a row', r: [2.98, 3.02, 1.62, 3.18], size: '40 × 50 each, 15 apart', h: 'Bottom edge 160, top 210, beside the bed', cls: 'p-item', wall: true, bo: [-6, 0] },
+    { g: 'Sleeping', n: 'Walnut ledge shelf', r: [2.87, 3.02, 1.80, 3.00], size: '120 × 15', h: 'Top at 135', cls: 'p-item', bo: [-24, 26] },
+    { g: 'Sleeping', n: 'Wall sconces × 2', pts: [[2.98, 1.58], [2.98, 3.22]], size: '—', h: 'Centre at 190, either end of the paintings', wall: true },
+    { g: 'Lounge', n: 'Cognac leather L-sofa (main)', r: [0.62, 3.02, 5.12, 5.97], size: '240 × 85', h: 'Back 17 cm off the window wall', cls: 'p-leather' },
+    { g: 'Lounge', n: 'L-sofa chaise (against right wall)', r: [2.10, 3.02, 4.50, 5.12], size: '92 wide, return 147 total', h: '—', cls: 'p-leather' },
+    { g: 'Lounge', n: 'Walnut coffee table', r: [0.90, 1.80, 4.37, 4.77], size: '90 × 40', h: 'Height 40', cls: 'p-item' },
+    { g: 'Lounge', n: 'Rug', r: [0.55, 2.55, 3.95, 5.35], size: '200 × 140', h: 'Front edge tucked under the sofa', cls: 'p-soft', under: true, bo: [150, 0] },
+    { g: 'Lounge', n: 'Tripod floor lamp', c: [0.32, 5.72, 0.26], size: '⌀ 52 base', h: 'Shade top ≈ 160', cls: 'p-item' },
+    { g: 'Lounge', n: 'Plant (artificial)', c: [0.28, 5.05, 0.18], size: '⌀ 35 pot', h: '≈ 150 tall', cls: 'p-item' },
+    { g: 'TV + storage', n: 'Walnut slat panels', r: [0.00, 0.04, 3.05, 4.85], size: '3 × 60 = 180 wide', h: 'Floor to 240', cls: 'p-item', wall: true, bo: [26, -60] },
+    { g: 'TV + storage', n: '65″ TV on tripod stand', c: [0.45, 3.85, 0.33], size: '145 wide, ⌀ 66 legs', h: 'Screen centre 118. Faces into the room; use a swivel stand to turn it toward the bed or the sofa.', cls: 'p-item', tv: true },
+    { g: 'TV + storage', n: 'Slim console', r: [0.00, 0.30, 1.85, 2.65], size: '80 × 30', h: 'Height 80', cls: 'p-item' },
+    { g: 'TV + storage', n: 'Clothes rail + shelf (right wall)', r: [2.72, 3.02, 3.40, 4.40], size: '100 × 30', h: 'Rail at 170, shelf at 195. Fix into studs or with heavy-duty anchors.', cls: 'p-item' },
+    { g: 'TV + storage', n: 'Luggage rack', r: [2.55, 3.00, 3.60, 4.20], size: '60 × 45', h: 'Under the rail', cls: 'p-soft', bo: [-30, 0] },
+    { g: 'Entrance', n: 'Entry door (end of corridor)', door: [0.04, 0.76], size: '≈ 72, to confirm', h: 'Existing' },
+    { g: 'Entrance', n: 'Wall hooks × 3 (corridor)', pts: [[0.03, 0.35], [0.03, 0.50], [0.03, 0.65]], size: '15 apart', h: 'At 175', wall: true },
+    { g: 'Entrance', n: 'Glass bathroom (existing)', r: [0.80, 3.02, 0.00, 1.05], size: '222 × 105', h: 'Glass door assumed on the corridor side', glass: true },
+    { g: 'Entrance', n: 'Bathroom curtain on L-shaped ceiling track', track: true, size: 'track 234 + 117', h: 'Track 12 cm outside the glass. Fabric 5.3–7 m total width, drop 285.' },
+    { g: 'Window', n: 'Window (existing, size assumed)', win: [1.25, 2.25], size: '≈ 100 × 100', h: 'Sill ≈ 110, top ≈ 210, to confirm' },
+    { g: 'Window', n: 'Window curtains on ceiling track', r: [0.70, 2.80, 6.02, 6.04], size: 'track 210', h: 'Ceiling, 12 cm from the wall; 2 panels, drop 285', curtain: true },
+    { g: 'Ceiling', n: 'Drum ceiling light', c: [1.51, 3.60, 0.3], size: '⌀ 60', h: 'Replaces the existing light point (position assumed)', cls: 'p-soft', ceiling: true },
   ];
   items.forEach((it, i) => { it.id = i + 1; });
 
   const dims = [
-    { a: [0, -0.32], b: [W, -0.32], t: '380', outer: true },
-    { a: [-0.32, 0], b: [-0.32, L], t: '600', outer: true, v: true },
-    { a: [1.00, 3.30], b: [1.75, 3.30], t: '75' },
-    { a: [1.90, 3.95], b: [1.90, 4.26], t: '31', v: true },
-    { a: [1.90, 4.66], b: [1.90, 4.98], t: '32', v: true },
-    { a: [3.30, 3.95], b: [3.30, 4.35], t: '40', v: true },
-    { a: [0.50, 1.25], b: [1.88, 1.25], t: '138' },
+    { a: [0, -0.32], b: [W, -0.32], t: '302', outer: true },
+    { a: [-0.32, 0], b: [-0.32, L], t: '614', outer: true, v: true },
+    { a: [W + 0.32, 1.05], b: [W + 0.32, L], t: '509', outer: true, v: true },
+    { a: [0, 0.6], b: [0.68, 0.6], t: '68' },
+    { a: [0.30, 2.25], b: [1.07, 2.25], t: '77' },
+    { a: [2.30, 3.25], b: [2.30, 4.37], t: '112', v: true },
+    { a: [1.30, 4.77], b: [1.30, 5.12], t: '35', v: true },
   ];
 
   const svg = document.getElementById('plan');
@@ -289,9 +288,9 @@
   // wall labels
   const lab = (x, y, txt, rot) => { const t = el('text', { x, y, 'text-anchor': 'middle', class: 'p-label', transform: rot ? `rotate(${rot} ${x} ${y})` : '' }); t.textContent = txt; };
   lab(X(W / 2), Y(L) - 16, 'Window wall');
-  lab(X(W / 2) + 40, Y(0) + 20, 'Door wall');
-  lab(X(0) - 12, Y(L / 2) + 70, 'TV wall', -90);
-  lab(X(W) + 14, Y(L / 2), 'Bed wall', 90);
+  lab(X(0.4), Y(0) + 20, 'Door');
+  lab(X(0) - 12, Y(L / 2) + 70, 'Left wall', -90);
+  lab(X(W) + 14, Y(1.9), 'Right wall', 90);
 
   // items
   items.forEach(it => {
@@ -299,16 +298,16 @@
     if (it.glass) {
       const [x0, x1, z0, z1] = it.r;
       el('polyline', { points: `${X(x0)},${Y(z0)} ${X(x0)},${Y(z1)} ${X(x1)},${Y(z1)}`, class: 'p-glass' });
-      el('line', { x1: X(x0) - 4, y1: Y(0.95), x2: X(x0) - 4, y2: Y(1.70), class: 'p-door' });
+      el('line', { x1: X(x0) - 4, y1: Y(0.2), x2: X(x0) - 4, y2: Y(0.9), class: 'p-door' });
       bx = X((x0 + x1) / 2); by = Y((z0 + z1) / 2);
       const t = el('text', { x: bx, y: by + 22, 'text-anchor': 'middle', class: 'p-label' }); t.textContent = 'Bathroom';
     } else if (it.track) {
-      el('polyline', { points: `${X(1.88)},${Y(0)} ${X(1.88)},${Y(1.92)} ${X(W)},${Y(1.92)}`, class: 'p-curtain' });
-      bx = X(1.88) - 12; by = Y(0.55);
+      el('polyline', { points: `${X(0.68)},${Y(0)} ${X(0.68)},${Y(1.17)} ${X(W)},${Y(1.17)}`, class: 'p-curtain' });
+      bx = X(1.9); by = Y(1.17) + 12;
     } else if (it.curtain) {
       el('line', { x1: X(it.r[0]), y1: Y(5.88), x2: X(it.r[1]), y2: Y(5.88), class: 'p-curtain' });
       bx = X(it.r[0]) + 14; by = Y(5.88) - 1;
-      bx = X(0.55); by = Y(5.88);
+      bx = X(0.55); by = Y(6.03);
     } else if (it.door) {
       bx = X((it.door[0] + it.door[1]) / 2); by = Y(0.35);
     } else if (it.win) {
@@ -325,7 +324,7 @@
       const [x, z, r] = it.c;
       el('circle', { cx: X(x), cy: Y(z), r: r * S, class: it.cls });
       if (it.tv) {
-        const a = Math.atan2(2.3 - x, 4.2 - z); // facing direction in plan (x right, z up)
+        const a = Math.atan2(1.9 - x, 3.85 - z); // facing direction in plan (x right, z up)
         const hw = 0.72, px = Math.cos(a), pz = -Math.sin(a);
         el('line', { x1: X(x - px * hw), y1: Y(z - pz * hw), x2: X(x + px * hw), y2: Y(z + pz * hw), stroke: 'var(--ink)', 'stroke-width': 4, 'stroke-linecap': 'round' });
         const fx = Math.sin(a), fz = Math.cos(a);
@@ -380,14 +379,14 @@
     if (it.r && !it.curtain) { fx = range(it.r[0], it.r[1]); fz = range(it.r[2], it.r[3]); }
     if (it.curtain) { fx = range(it.r[0], it.r[1]); fz = '12 off window wall'; }
     if (it.c) { fx = `centre ${cm(it.c[0])}`; fz = `centre ${cm(it.c[1])}`; }
-    if (it.pt) { fx = 'on bed wall'; fz = `centre ${cm(it.pt[1])}`; }
-    if (it.pts && it.pts[0][1] > 0.2) { fx = 'on bed wall'; fz = it.pts.map(p => cm(p[1])).join(' and '); }
-    if (it.pts && it.pts[0][1] <= 0.2) { fx = it.pts.map(p => cm(p[0])).join(', '); fz = 'on door wall'; }
+    if (it.pt) { fx = 'on right wall'; fz = `centre ${cm(it.pt[1])}`; }
+    if (it.pts && it.pts[0][0] > 1) { fx = 'on right wall'; fz = it.pts.map(p => cm(p[1])).join(' and '); }
+    if (it.pts && it.pts[0][0] <= 1) { fx = 'on left wall'; fz = it.pts.map(p => cm(p[1])).join(', '); }
     if (it.door) { fx = range(it.door[0], it.door[1]); fz = 'on door wall'; }
     if (it.win) { fx = range(it.win[0], it.win[1]); fz = 'on window wall'; }
-    if (it.track) { fx = '188 (side run)'; fz = '0–192 · then 192 (front run)'; }
-    if (it.wall && it.r && it.r[0] > W / 2) fx = 'on bed wall';
-    if (it.wall && it.r && it.r[0] < 0.1) fx = 'on TV wall';
+    if (it.track) { fx = '68 (corridor run) · 68–302 (front run)'; fz = '0–117 · 117 (front run)'; }
+    if (it.wall && it.r && it.r[0] > W / 2) fx = 'on right wall';
+    if (it.wall && it.r && it.r[0] < 0.1) fx = 'on left wall';
     const tr = document.createElement('tr');
     [String(it.id), it.n, it.size, fx, fz, it.h].forEach((v, i) => {
       const td = document.createElement('td');

@@ -3,6 +3,9 @@
 Everything needed to build the concept in `designs/`, adapted for an Airbnb:
 durable, wipe-clean, washable, and guest-proof.
 
+**Sized for the measured room:** 3.02 × 6.14 m, ceiling 2.87 m. Exact positions are in
+`plan/cave-bedroom-plan.html`.
+
 Prices are **rough USD ranges** to help you budget. They vary a lot by country
 and store. Brand names are examples only; use the search terms to find the
 equivalent locally. Check that every item is in stock before you order.
@@ -18,8 +21,8 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 |---|---|---|---|---|
 | ☐ | Charcoal wall paint | **Scrubbable matte or eggshell** (not flat) so scuffs wipe off; very dark charcoal, not pure black; about 2 to 3 gallons for 3 walls + primer | "washable matte charcoal paint" | $80–150 |
 | ☐ | *or* charcoal limewash | For the cement / cave texture look. Harder to touch up after guests, so **seal it** with a matte clear coat | "limewash paint charcoal", "microcement effect paint" | $100–200 |
-| ☐ | Stone-effect wallpaper (bed wall) | Peel-and-stick **vinyl** (wipeable), dark slate or stone texture, about 10–12 m² + 10% spare | "peel and stick slate stone wallpaper dark" | $60–200 |
-| ☐ | Walnut slat wall panels (TV wall) | Acoustic slat panels on felt backing, dark walnut, about 4–5 panels (60 × 240 cm) | "walnut acoustic slat wall panel" | $250–500 |
+| ☐ | Stone-effect wallpaper (right wall) | Peel-and-stick **vinyl** (wipeable), dark slate or stone texture. Wall is 509 × 287 cm ≈ 14.6 m²; **buy 16 m²** | "peel and stick slate stone wallpaper dark" | $60–200 |
+| ☐ | Walnut slat wall panels (behind TV) | Acoustic slat panels on felt backing, dark walnut, **3 panels of 60 × 240 cm** | "walnut acoustic slat wall panel" | $180–380 |
 
 ## 2. Lighting
 
@@ -38,16 +41,16 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 |---|---|---|---|---|
 | ☐ | Queen bed frame | Walnut or dark wood with headboard, **slatted base, no squeaks** | "walnut queen bed frame headboard" | $250–700 |
 | ☐ | Queen mattress | Medium-firm hybrid (suits most guests) | "queen hybrid mattress medium firm" | $300–800 |
-| ☐ | Bedside tables × 2 | Walnut, with a drawer; add a **USB / USB-C charging** strip or lamp with ports | "walnut nightstand" | $80–200 |
-| ☐ | L-shaped sofa | Cognac brown. For Airbnb, pick **top-grain or bonded leather, or a quality faux leather** that wipes clean. Measure the window wall first | "cognac leather sectional sofa small" | $700–2,000 |
-| ☐ | Coffee table | Walnut top, black iron legs | "walnut coffee table metal legs" | $100–250 |
+| ☐ | Bedside tables × 2 | **Slim: 30 cm wide × 40 cm deep**, walnut; add a **USB / USB-C charging** strip. Plus a small table lamp for the left one | "narrow nightstand 30cm walnut" | $80–200 |
+| ☐ | L-shaped sofa | Cognac brown, **max 240 cm long × 85 cm deep, chaise return max 150 cm** (chaise on the right as you face the window). Wipe-clean leather or quality faux leather | "cognac leather sectional sofa 240cm chaise" | $700–2,000 |
+| ☐ | Coffee table | **90 × 40 cm**, walnut top, black iron legs | "narrow walnut coffee table 90cm" | $80–200 |
 | ☐ | Console table (optional) | Slim, dark wood, about 30 cm deep | "narrow console table walnut" | $80–200 |
 
 ## 4. Clothes storage (guests need this)
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wall-mounted clothes rail | About 100 cm wide, **black iron pipe brackets + walnut shelf on top**, fixed at about 170 cm height **into studs or with heavy-duty anchors** (clothes are heavy) | "industrial pipe clothes rail with shelf wall mounted" | $50–150 |
+| ☐ | Wall-mounted clothes rail | **100 cm wide**, on the right wall, **black iron pipe brackets + walnut shelf on top**, fixed at about 170 cm height **into studs or with heavy-duty anchors** (clothes are heavy) | "industrial pipe clothes rail with shelf wall mounted" | $50–150 |
 | ☐ | Full-length mirror | Slim walnut-frame mirror, wall-mounted near the rail or door | "full length mirror walnut frame" | $50–150 |
 | ☐ | Luggage rack | Folding, wood with straps. Keeps suitcases off the bed | "folding luggage rack wood" | $30–60 |
 | ☐ | Hangers × 20 | Matching dark wood or black velvet | "black wooden hangers" | $20–35 |
@@ -64,10 +67,10 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Window curtains | Dark brown velvet, **blackout-lined**, floor to ceiling, panels about 2× the window width | "dark brown velvet blackout curtains" | $60–150 |
-| ☐ | Ceiling track (window) | Ceiling-mounted curtain track | "ceiling curtain track" | $30–60 |
-| ☐ | Bathroom-glass curtains | Same fabric. Measure the **perimeter of the glass box**; total panel width = **1.5–2× that perimeter** so the panels overlap and no glass shows. Split at the glass door | "blackout velvet curtain panels" | $120–250 |
-| ☐ | Bendable ceiling track (bathroom) | Track that can turn corners, fixed to the ceiling about 10–15 cm out from the glass, e.g. IKEA VIDGA with corner pieces | "bendable ceiling curtain track" | $50–120 |
+| ☐ | Window curtains | Dark brown velvet, **blackout-lined**, 2 panels, **drop 285 cm** (buy 290 and hem; standard 250/260 is too short) | "dark brown velvet blackout curtains 290cm" | $70–180 |
+| ☐ | Ceiling track (window) | Ceiling-mounted, **210 cm** | "ceiling curtain track" | $30–60 |
+| ☐ | Bathroom-glass curtains | Same fabric, **drop 285 cm**. Track is 234 + 117 = 351 cm, so **total panel width 5.3–7 m** (e.g. 4–5 panels of 140 cm). Split at the glass door | "blackout velvet curtain panels 290cm" | $150–300 |
+| ☐ | Bendable ceiling track (bathroom) | L-shaped: **234 cm** along the front of the glass + **117 cm** along the corridor side, 12 cm out from the glass, e.g. IKEA VIDGA with a corner piece | "bendable ceiling curtain track" | $50–120 |
 | ☐ | *Budget alternative* | Smoked or blackout **window film** on the glass (peels off) | "smoked privacy window film" | $25–60 |
 
 ## 7. Bedding and textiles (buy 2 sets; you'll wash between guests)
@@ -80,7 +83,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 | ☐ | **Mattress protector + pillow protectors** | Waterproof. An Airbnb must-have | "waterproof mattress protector queen" | $30–60 |
 | ☐ | Faux-fur throw | **Machine-washable**, brown | "washable faux fur throw brown" | $30–60 |
 | ☐ | Cushions | Grey / brown, removable covers | – | $40–80 |
-| ☐ | Rug | Dark charcoal, low pile, **washable** or easy clean, about 160 × 230 cm | "washable rug charcoal 160x230" | $120–300 |
+| ☐ | Rug | Dark charcoal, low pile, **washable** or easy clean, **200 × 140 cm** | "washable rug charcoal 160x230" | $120–300 |
 
 ## 8. Wall art and decor
 
