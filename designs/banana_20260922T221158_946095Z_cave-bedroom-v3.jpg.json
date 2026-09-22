@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:11:58.948639+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "4d21d0c271f61d9ad2f0d15a37d233ba2bb0d530280384b192ef126221e76dd7",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "96a0eef169fedad694f9f217b3236c1241188fcf826542245c11f3490898cc79",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "25a726c49e131f4182309bb2bcf65062f38e4447f0f38b7608847fa2a21e4986",
+      "bytes": 611224,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave bedroom concept v1 render",
+      "role": "object",
+      "purpose": "furniture layout and room geometry",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "320146b78ab1b4282f8e662580b6c81c5e50b50211fc6372557e162b88b17511",
+      "bytes": 647403,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave bedroom concept v2 render",
+      "role": "style",
+      "purpose": "wallpaper, wall decor, tables and wider camera view",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T221158_946095Z_cave-bedroom-v3.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 649433,
+    "sha256": "7f8f555db5f8765af6d3f3d01d5ce14ea32abb0aed29a383512fddc43861bd1a",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2680
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
