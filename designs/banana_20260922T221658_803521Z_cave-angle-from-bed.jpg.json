@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:16:58.806389+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "472eb2e97bfeaa65790a703de13060e41de731c67ed60d5af6146731ce43ec5e",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "b69ac878b0a2194834c2453f12e83170f2f1e4b02e6fba7747f415a1791da3af",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "6541db02fc6b6dcd12a0ab82e579a4707305f53bc005ed2742454bd778755ee1",
+      "bytes": 659145,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave bedroom concept v4 render",
+      "role": "object",
+      "purpose": "keep furniture, finishes and lighting consistent in a new camera view",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T221658_803521Z_cave-angle-from-bed.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 669777,
+    "sha256": "f17944cb8ecf59380c367f698423cc85e728f2448d6bc49ff2e4c36002daf968",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2226
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
