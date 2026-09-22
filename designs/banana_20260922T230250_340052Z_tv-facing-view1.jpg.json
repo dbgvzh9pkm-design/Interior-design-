@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:02:50.342274+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "16431c2950467c98371dc1cffde5712e4f149002f2c6d3337a9ad9984026536d",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "071afe0c17de5fcc4723e1593eb5ffeae3ce864bdf632fd12a0a19de5fe33d1d",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "7c119ec6f785a5aa0999d0c11257ea8c073c67b7c3dcd37d6250b7b61b175003",
+      "bytes": 114713,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "3D block model view (behind the bed toward the TV)",
+      "role": "object",
+      "purpose": "exact layout, room shape and camera angle",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "170bfbc364b9af34596f9d28144a13dfc968124ba83084f15efb29a30fa625ab",
+      "bytes": 623641,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "finished design photo",
+      "role": "style",
+      "purpose": "materials, colours, textures and lighting",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T230250_340052Z_tv-facing-view1.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 625768,
+    "sha256": "f7fb65f8d6d0025317298b642309da0c987530ad907cbc02ea0082b3cd92a417",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2853
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

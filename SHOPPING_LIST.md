@@ -42,8 +42,8 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 | ☐ | Queen bed frame | Walnut or dark wood with headboard, **slatted base, no squeaks** | "walnut queen bed frame headboard" | $250–700 |
 | ☐ | Queen mattress | Medium-firm hybrid (suits most guests) | "queen hybrid mattress medium firm" | $300–800 |
 | ☐ | Bedside tables × 2 | **Slim: 30 cm wide × 40 cm deep**, walnut; add a **USB / USB-C charging** strip. Plus a small table lamp for the left one | "narrow nightstand 30cm walnut" | $80–200 |
-| ☐ | L-shaped sofa | Cognac brown, **max 240 cm long × 85 cm deep, chaise return max 150 cm** (chaise on the right as you face the window). Wipe-clean leather or quality faux leather | "cognac leather sectional sofa 240cm chaise" | $700–2,000 |
-| ☐ | Coffee table | **90 × 40 cm**, walnut top, black iron legs | "narrow walnut coffee table 90cm" | $80–200 |
+| ☐ | L-shaped sofa | Cognac brown, **180 cm wide × 90 cm deep, LOW back (≤ 75 cm)** so you can see the TV over it from the bed; **left-hand chaise**, 150 cm total return. Wipe-clean leather or quality faux leather | "cognac leather small sectional low back left chaise" | $600–1,800 |
+| ☐ | Round side table | **⌀ 40 cm**, 50 cm high, walnut top, black base, at the sofa's right end (no coffee table: the TV sits where it would go) | "round walnut side table 40cm" | $50–120 |
 | ☐ | Console table (optional) | Slim, dark wood, about 30 cm deep | "narrow console table walnut" | $80–200 |
 
 ## 4. Clothes storage (guests need this)
@@ -61,7 +61,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
 | ☐ | 65" TV | Plasma TVs are no longer made. Get a **65" 4K smart LED / QLED** with built-in apps (Netflix, YouTube) so guests can sign in | "65 inch 4K smart TV" | $450–900 |
-| ☐ | Tripod TV stand | Easel / tripod style, **rated for 65" and the TV's weight**, VESA fit, **swivel** so it faces bed or sofa | "tripod easel TV stand 65 inch swivel" | $70–150 |
+| ☐ | Tripod TV stand | Easel / tripod style, **rated for 65" and the TV's weight**, VESA fit, **height-adjustable**. Stands in front of the window facing the sofa and the bed | "tripod easel TV stand 65 inch swivel" | $70–150 |
 
 ## 6. Curtains
 
@@ -83,7 +83,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 | ☐ | **Mattress protector + pillow protectors** | Waterproof. An Airbnb must-have | "waterproof mattress protector queen" | $30–60 |
 | ☐ | Faux-fur throw | **Machine-washable**, brown | "washable faux fur throw brown" | $30–60 |
 | ☐ | Cushions | Grey / brown, removable covers | – | $40–80 |
-| ☐ | Rug | Dark charcoal, low pile, **washable** or easy clean, **200 × 140 cm** | "washable rug charcoal 160x230" | $120–300 |
+| ☐ | Rug | Dark charcoal, low pile, **washable** or easy clean, **200 × 150 cm**, between the sofa and the TV | "washable rug charcoal 160x230" | $120–300 |
 
 ## 8. Wall art and decor
 
