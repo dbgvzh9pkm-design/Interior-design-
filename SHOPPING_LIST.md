@@ -10,7 +10,7 @@ Prices are **rough USD ranges** to help you budget. They vary a lot by country
 and store. Brand names are examples only; use the search terms to find the
 equivalent locally. Check that every item is in stock before you order.
 
-**Estimated total:** about **$3,800 (budget) to $9,000 (mid-range)**. Everything is
+**Estimated total:** about **$4,000 (budget) to $9,800 (mid-range)**. Everything is
 plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ---
@@ -19,9 +19,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec / what to ask for | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Charcoal wall paint | **Scrubbable matte or eggshell** (not flat) so scuffs wipe off; very dark charcoal, not pure black; about 2 to 3 gallons for 3 walls + primer | "washable matte charcoal paint" | $80–150 |
-| ☐ | *or* charcoal limewash | For the cement / cave texture look. Harder to touch up after guests, so **seal it** with a matte clear coat | "limewash paint charcoal", "microcement effect paint" | $100–200 |
-| ☐ | Slate-effect feature wall (bed wall) | **Smooth, large-format dark charcoal slate look with fine hairline cracks**, not stacked stone. Options: wipeable slate-effect vinyl wallpaper, flexible thin slate-veneer sheets, or charcoal microcement / limewash with a sealed finish. Wall is 509 × 287 cm ≈ 14.6 m²; **buy 16 m²** | "large slate effect wallpaper charcoal", "flexible slate veneer sheet" | $80–400 |
+| ☐ | Slate-effect finish, **all walls** (ceiling stays as is) | **Smooth, large-format dark charcoal slate look with fine hairline cracks**, not stacked stone. Options: wipeable slate-effect vinyl wallpaper (cheapest), flexible thin slate-veneer sheets (most realistic), or sealed charcoal microcement. Walls: left 17.6 m² + right 14.6 m² + window wall ≈ 7.7 m² + corridor end ≈ 0.7 m² ≈ **41 m²; buy 45 m²** | "large slate effect wallpaper charcoal", "flexible slate veneer sheet" | $220–1,100 |
 
 ## 2. Lighting
 
@@ -111,7 +109,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ## Order of work
 
-1. Walls: paint or limewash, then the slate-effect finish on the bed wall.
+1. Walls: prep and prime, then the slate-effect finish on every wall (leave the ceiling).
 2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
