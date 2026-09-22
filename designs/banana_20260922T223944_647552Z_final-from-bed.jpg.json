@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:39:44.649989+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "26c088f63b502170f1d2c57ca40909d7d40ee5352346712fea97b5a3b3019e45",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "6983f0745da548e4591d975e60bea78a330c77427fd0bb457fbdec4f02379c28",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "0006e65f9ba26616ad2d8c81b52ea1108d49c1ab224b3c59960adc1c59e9cc75",
+      "bytes": 663590,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "final design photo looking toward the entrance",
+      "role": "object",
+      "purpose": "keep furniture, finishes and lighting consistent in a new camera view",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T223944_647552Z_final-from-bed.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 644558,
+    "sha256": "b29de6ea96a8591998f4aa5cb87126b58000bd2c3614a87b4c2733ea2b34c7e3",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2528
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
