@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:19:34.400137+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "7c964b3109b858d1c3dd5b45d1f4a38109ba63b018ec8b2840a0d0450c4a0fd1",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "2892b8c6a95ce2c024b0fb85fd4bf2452670924efa7818f70073f9295342fe48",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "2a4ac9dd44a13058faf05907a8e07c60899bc59cb33b75028d25aef8abb1ebeb",
+      "bytes": 630479,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave bedroom reverse-view render",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, furniture and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "ca37a9b0bc2848d7319599562d449a987182c49f20b5e99201f05ccba32fe1a5",
+      "bytes": 98471,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "bathroom glass enclosure still from user's video",
+      "role": "object",
+      "purpose": "real shape and position of the frosted-glass bathroom enclosure and door",
+      "subject_id": "user-bathroom-glass"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T221934_398284Z_cave-bath-curtain-lamp.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 658784,
+    "sha256": "b9e53469fd096dc82e54c1853fbf5d2773040d2cd0853f5f6352c0fc0d4ce762",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2461
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
