@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:07:11.395726+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "c165c03979523f3dd8a49c509dec406fb57d69e28e5029bd9169c35d0cadfe5d",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "17bca40b851fede918f7718e235c87ec85ba93df18afe26789e67ff8c774873f",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "2065dddd9941ef0a7432f7711fe889623e172e09e80f25f6331675c54b027b00",
+      "bytes": 634339,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "fixed favourite view",
+      "role": "object",
+      "purpose": "keep furniture, finishes and lighting consistent in a new camera view",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T230711_393615Z_fixed-from-sofa.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 658522,
+    "sha256": "0f60fd152c463b2e96380dc15af3946c8149e057ffe6398d462da216133d1a1d",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2535
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
