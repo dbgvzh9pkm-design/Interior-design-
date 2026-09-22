@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:58:23.211748+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "dc1cad8f09c1c777c5b35c4710d347898b942d6d2686ce438fd6652de7507641",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "413eeb183a514b392d68ce36d93200f808b42e67cce5813121f2c97a2d5e819d",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "49e2a32021d3c28432ebc013affec6d96a3bf6e37c2948d45278122156438eaf",
+      "bytes": 51985,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "3D block model view (overhead dollhouse view)",
+      "role": "object",
+      "purpose": "exact layout, room shape and camera angle",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "58a1229128278d24f271df82f6bb9d2190d37cd5bb95620df0bcc3d19c651a26",
+      "bytes": 631384,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "finished design photo",
+      "role": "style",
+      "purpose": "materials, colours, textures and lighting",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T225823_209672Z_real-overhead.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 473792,
+    "sha256": "06d5423831496930def5b8f376e95dc4d467ba574a7925352602306bac941ebc",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 3073
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

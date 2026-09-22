@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:58:23.143358+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "236e7fcaa7cafa143914ed0716bd4bb7d511d5f88f02451ed744e488fe26e7d0",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "c1d1641ff27c61076f0740a58220814d552709cdf67f7677d117f5c34e8728ff",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "8fc62872a061405c92d9446a0826cffc8eddf8b61bf17b48f6cdd9c1430667d9",
+      "bytes": 121134,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "3D block model view (view from the corridor into the room)",
+      "role": "object",
+      "purpose": "exact layout, room shape and camera angle",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "58a1229128278d24f271df82f6bb9d2190d37cd5bb95620df0bcc3d19c651a26",
+      "bytes": 631384,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "finished design photo",
+      "role": "style",
+      "purpose": "materials, colours, textures and lighting",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T225823_140592Z_real-doorway.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 537097,
+    "sha256": "033b20146c6653b5708d0c98d1c8f43266fead7b6937cca40b9635b0e68e4193",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 3061
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

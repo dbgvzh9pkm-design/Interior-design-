@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:58:22.262663+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "d9f3dd239536578776b22ad9eb71110cc6be86249dec9040d43a8d60186dc647",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "f78d6447b9d5e31ae324bdb3f971978992c88d06c26d1918fb353cf28c5d06b4",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "343c9c1a331d1978eb45ec8b8828126b6c8d5daab32019eb26478292fb3bbf4b",
+      "bytes": 119947,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "3D block model view (view from the bed toward the TV)",
+      "role": "object",
+      "purpose": "exact layout, room shape and camera angle",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "58a1229128278d24f271df82f6bb9d2190d37cd5bb95620df0bcc3d19c651a26",
+      "bytes": 631384,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "finished design photo",
+      "role": "style",
+      "purpose": "materials, colours, textures and lighting",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T225822_260302Z_real-from-bed.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 623641,
+    "sha256": "170bfbc364b9af34596f9d28144a13dfc968124ba83084f15efb29a30fa625ab",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2882
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
