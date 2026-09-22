@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:16:34.432799+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "09ba4a4bf532fe78b929e0387955b08c557fcc608935f6bf551bbd624b9123a2",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "efcd78651f9f27f158c58eb3841cdb2ce86b1a91bf37bb21783a5cd93814c012",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "d0981ef71b54cac61d4d3f5cebe7e2c2b49518a05ae45f872f15ab24a5e2600c",
+      "bytes": 676160,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "approved view to edit (slate-sofa)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "3fd72e10bc7286a7aaeed08960822f77fac67ced2577ca81a3845d4f0d5f9fe5",
+      "bytes": 676427,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "all-slate chosen view",
+      "role": "style",
+      "purpose": "wall finish texture and colour only",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T231634_430312Z_slate-sofa.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 668617,
+    "sha256": "d0fde447f206c2e8902f2fcf9254c729a60fbda01041ee3420490de407d0f67c",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2359
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

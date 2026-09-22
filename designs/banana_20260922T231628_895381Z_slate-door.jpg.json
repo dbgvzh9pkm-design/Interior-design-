@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:16:28.897441+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "09ba4a4bf532fe78b929e0387955b08c557fcc608935f6bf551bbd624b9123a2",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "8bce2e2e39b41d6a5d13c584440b1cf32ff720d9744fedd4c3a6776a5f180745",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "63c0246ca6172b65e3f8971dd28f1657b63496708e74485a3143e6836ed61a97",
+      "bytes": 656172,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "approved view to edit (slate-door)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "3fd72e10bc7286a7aaeed08960822f77fac67ced2577ca81a3845d4f0d5f9fe5",
+      "bytes": 676427,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "all-slate chosen view",
+      "role": "style",
+      "purpose": "wall finish texture and colour only",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T231628_895381Z_slate-door.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 652568,
+    "sha256": "c40734f438579c06bee0e88d27cbc4c6556dd3ebda4fdf4cb106a8d5fc9b84a8",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2371
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

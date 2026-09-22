@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T23:16:29.714952+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "3cfed228405881606eb939b0a54917a472b485c7c1a91e41b7a5119e29400c0f",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "64ea79d50f0d4853dfd5ba964a3bb8556f3ccea8404571829bd65d1db978751d",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "afeae054b1696cd97dc21feebe774bcd5a432f37f102af609537dcdba648c21f",
+      "bytes": 606882,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "approved view to edit (slate-overhead)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "3fd72e10bc7286a7aaeed08960822f77fac67ced2577ca81a3845d4f0d5f9fe5",
+      "bytes": 676427,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "all-slate chosen view",
+      "role": "style",
+      "purpose": "wall finish texture and colour only",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T231629_713055Z_slate-overhead.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 625592,
+    "sha256": "202d91a51d4025be3e48176408b09040b4a77b3f95c9034e553ebefa5e4f0050",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2413
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
