@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-22T22:23:37.305749+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "0b7217efcda32c53867074665d089a2a8de34ee0cfbe8d560134cc237a549e9c",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "c8bd3214b3ea6efc808ae33135d3cb6a7385bff26b789365c3f06729d2b808ff",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "b9e53469fd096dc82e54c1853fbf5d2773040d2cd0853f5f6352c0fc0d4ce762",
+      "bytes": 658784,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave bedroom reverse view with curtains and lamp",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, furniture and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260922T222337_303599Z_cave-wardrobe.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 664561,
+    "sha256": "8f8b8176df0e572d078eab7a532236b8bd27233f72d2fc91a30b1342b56e7b1a",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2433
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
