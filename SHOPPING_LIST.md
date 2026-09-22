@@ -31,7 +31,6 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 | ☐ | Wall sconces × 2 | Warm, small, black or brass, **plug-in** if you can't rewire | "plug in wall sconce black" | $60–150 |
 | ☐ | Swing-arm wall lamps × 2 (bedside) | Black metal, plug-in, with switch on the cord | "swing arm wall lamp plug in black" | $50–120 |
 | ☐ | Tripod floor lamp | Walnut legs, linen drum shade | "wooden tripod floor lamp linen shade" | $60–150 |
-| ☐ | Bulbs | 2700K, dimmable, LED | "2700K dimmable LED bulb" | $20–40 |
 
 ## 3. Furniture
 
