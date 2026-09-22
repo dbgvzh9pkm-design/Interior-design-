@@ -506,7 +506,7 @@
   }
 
   /* ---------- bed wall: bed, nightstand, art, shelf, lamps ---------- */
-  const bedX0 = W - 2.05, bedZ0 = 2.3, bedZ1 = 3.9;
+  const bedX0 = W - 2.05, bedZ0 = 2.3, bedZ1 = 3.95;
   bb(bedX0, W - 0.08, 0.05, 0.3, bedZ0, bedZ1, M.walnut);
   bb(W - 0.08, W, 0, 1.1, bedZ0 - 0.05, bedZ1 + 0.05, M.walnut, G.right);
   bb(bedX0 + 0.04, W - 0.1, 0.3, 0.52, bedZ0 + 0.04, bedZ1 - 0.04, M.bedding);
@@ -517,11 +517,11 @@
     p.rotation.z = -0.25;
   });
   // nightstand + swing-arm lamp
-  bb(W - 0.45, W - 0.02, 0, 0.5, 1.87, 2.27, M.walnutLight);
-  rod(new THREE.Vector3(W - 0.01, 1.3, 2.07), new THREE.Vector3(W - 0.35, 1.3, 2.07), 0.01, M.black, G.right);
-  const shade = cyl(0.04, 0.08, 0.12, M.black, W - 0.37, 1.25, 2.07, G.right);
-  cyl(0.06, 0.06, 0.005, M.glow, W - 0.37, 1.19, 2.07, G.right);
-  const bedLamp = new THREE.PointLight(0xffb870, 0.45, 3, 1.4); bedLamp.position.set(W - 0.37, 1.1, 2.07); root.add(bedLamp);
+  bb(W - 0.4, W - 0.02, 0, 0.5, 1.98, 2.28, M.walnutLight);
+  rod(new THREE.Vector3(W - 0.01, 1.3, 2.13), new THREE.Vector3(W - 0.35, 1.3, 2.13), 0.01, M.black, G.right);
+  const shade = cyl(0.04, 0.08, 0.12, M.black, W - 0.37, 1.25, 2.13, G.right);
+  cyl(0.06, 0.06, 0.005, M.glow, W - 0.37, 1.19, 2.13, G.right);
+  const bedLamp = new THREE.PointLight(0xffb870, 0.45, 3, 1.4); bedLamp.position.set(W - 0.37, 1.1, 2.13); root.add(bedLamp);
   // paintings
   function framed(w, h, kind, z, y) {
     bb(W - 0.04, W, y - h / 2 - 0.03, y + h / 2 + 0.03, z - w / 2 - 0.03, z + w / 2 + 0.03, M.black, G.right);
@@ -529,30 +529,30 @@
     p.rotation.y = -Math.PI / 2;
     p.position.set(W - 0.045, y, z);
   }
-  framed(0.55, 0.7, 0, 2.75, 1.98);
-  framed(0.42, 0.3, 1, 3.4, 2.13);
-  framed(0.42, 0.3, 2, 3.4, 1.75);
+  framed(0.4, 0.5, 1, 2.62, 1.9);
+  framed(0.4, 0.5, 0, 3.12, 1.9);
+  framed(0.4, 0.5, 2, 3.62, 1.9);
   // floating shelf with books
-  bb(W - 0.22, W, 1.46, 1.49, 2.55, 3.65, M.walnut, G.right);
+  bb(W - 0.22, W, 1.42, 1.45, 2.55, 3.65, M.walnut, G.right);
   [[3.2, 0.2, 0x5a4a3c], [3.26, 0.24, 0x2b2b2d], [3.31, 0.22, 0x7a5c3d], [3.36, 0.18, 0x3d3d3d]].forEach(([z, hh, c]) => {
-    bb(W - 0.2, W - 0.04, 1.49, 1.49 + hh, z - 0.025, z + 0.025, new THREE.MeshStandardMaterial({ color: c, roughness: 0.9 }), G.right);
+    bb(W - 0.2, W - 0.04, 1.45, 1.45 + hh, z - 0.025, z + 0.025, new THREE.MeshStandardMaterial({ color: c, roughness: 0.9 }), G.right);
   });
-  cyl(0.05, 0.06, 0.1, M.walnutLight, W - 0.12, 1.54, 2.75, G.right);
-  const trail = new THREE.Mesh(new THREE.SphereGeometry(0.1, 10, 8), M.plant); trail.scale.set(1, 1.6, 1); trail.position.set(W - 0.12, 1.5, 2.75); G.right.add(trail);
+  cyl(0.05, 0.06, 0.1, M.walnutLight, W - 0.12, 1.5, 2.75, G.right);
+  const trail = new THREE.Mesh(new THREE.SphereGeometry(0.1, 10, 8), M.plant); trail.scale.set(1, 1.6, 1); trail.position.set(W - 0.12, 1.46, 2.75); G.right.add(trail);
   // wall sconces
-  [2.1, 4.1].forEach(z => {
-    bb(W - 0.03, W, 1.85, 2.0, z - 0.04, z + 0.04, M.brass, G.right);
-    cyl(0.035, 0.035, 0.12, M.glow, W - 0.07, 1.98, z, G.right);
-    const l = new THREE.PointLight(0xffb36b, 0.3, 2.6, 1.6); l.position.set(W - 0.15, 2.05, z); root.add(l);
+  [2.35, 3.9].forEach(z => {
+    bb(W - 0.03, W, 1.83, 1.97, z - 0.04, z + 0.04, M.brass, G.right);
+    cyl(0.035, 0.035, 0.12, M.glow, W - 0.07, 1.95, z, G.right);
+    const l = new THREE.PointLight(0xffb36b, 0.3, 2.6, 1.6); l.position.set(W - 0.15, 2.0, z); root.add(l);
   });
 
   /* ---------- window end: L-sofa, coffee table, rug, floor lamp, plant ---------- */
-  const sz0 = L - 0.95, sz1 = L - 0.05;
+  const sz0 = 4.98, sz1 = 5.83;
   bb(1.15, W - 0.02, 0.1, 0.4, sz0, sz1, M.leatherDark);
   bb(1.35, W - 0.95, 0.4, 0.52, sz0 + 0.02, sz1 - 0.2, M.leather);
   bb(1.15, W - 0.02, 0.4, 0.88, sz1 - 0.22, sz1, M.leather);
   bb(1.15, 1.37, 0.4, 0.64, sz0, sz1, M.leather);
-  const cz0 = L - 2.0;
+  const cz0 = 4.35;
   bb(W - 0.97, W - 0.02, 0.1, 0.4, cz0, sz0, M.leatherDark);
   bb(W - 0.95, W - 0.22, 0.4, 0.52, cz0 + 0.2, sz1 - 0.2, M.leather);
   bb(W - 0.24, W - 0.02, 0.4, 0.88, cz0, sz1, M.leather);
@@ -563,41 +563,41 @@
     rod(new THREE.Vector3(x, 0, sz0 + 0.02), new THREE.Vector3(x, 0.1, sz0 + 0.02), 0.012, M.black);
   }
   // rug + coffee table
-  const rug = plane(2.2, 1.7, M.rug); rug.rotation.x = -Math.PI / 2; rug.position.set(2.1, 0.006, L - 1.35);
-  bb(1.45, 2.55, 0.36, 0.41, 4.25, 4.8, M.walnut);
-  [[1.5, 4.3], [2.5, 4.3], [1.5, 4.75], [2.5, 4.75]].forEach(([x, z]) => bb(x - 0.015, x + 0.015, 0, 0.36, z - 0.015, z + 0.015, M.black));
-  bb(1.6, 1.9, 0.41, 0.46, 4.4, 4.62, new THREE.MeshStandardMaterial({ color: 0x2b2b2d, roughness: 0.9 }));
-  cyl(0.05, 0.06, 0.2, new THREE.MeshStandardMaterial({ color: 0x9a6a3a, transparent: true, opacity: 0.75, roughness: 0.1 }), 2.2, 0.51, 4.52);
-  cyl(0.03, 0.03, 0.06, M.glow, 2.4, 0.44, 4.45);
+  const rug = plane(2.0, 1.4, M.rug); rug.rotation.x = -Math.PI / 2; rug.position.set(1.9, 0.006, 4.65);
+  bb(1.40, 2.40, 0.36, 0.40, 4.26, 4.66, M.walnut);
+  [[1.45, 4.3], [2.35, 4.3], [1.45, 4.62], [2.35, 4.62]].forEach(([x, z]) => bb(x - 0.015, x + 0.015, 0, 0.36, z - 0.015, z + 0.015, M.black));
+  bb(1.55, 1.85, 0.40, 0.45, 4.36, 4.56, new THREE.MeshStandardMaterial({ color: 0x2b2b2d, roughness: 0.9 }));
+  cyl(0.05, 0.06, 0.2, new THREE.MeshStandardMaterial({ color: 0x9a6a3a, transparent: true, opacity: 0.75, roughness: 0.1 }), 2.1, 0.5, 4.46);
+  cyl(0.03, 0.03, 0.06, M.glow, 2.28, 0.43, 4.4);
   // tripod floor lamp
-  const lx = 0.85, lz = L - 0.35;
+  const lx = 0.75, lz = 5.6;
   [0, 2.1, 4.2].forEach(a => rod(new THREE.Vector3(lx + Math.cos(a) * 0.28, 0, lz + Math.sin(a) * 0.28), new THREE.Vector3(lx, 1.3, lz), 0.014, M.walnutLight));
   const lampShade = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.23, 0.3, 28, 1, true), M.linen); lampShade.position.set(lx, 1.45, lz); root.add(lampShade);
   const floorLamp = new THREE.PointLight(0xffb468, 0.9, 5, 1.3); floorLamp.position.set(lx, 1.4, lz); root.add(floorLamp);
   // plant
-  cyl(0.16, 0.12, 0.34, M.black, 0.35, 0.17, L - 0.4);
+  cyl(0.16, 0.12, 0.34, M.black, 0.3, 0.17, 5.25);
   for (let i = 0; i < 9; i++) {
     const s = new THREE.Mesh(new THREE.SphereGeometry(0.16, 10, 8), M.plant);
     s.scale.set(1, 0.6, 0.35);
-    s.position.set(0.35 + (rnd() - 0.5) * 0.35, 0.7 + i * 0.1, L - 0.4 + (rnd() - 0.5) * 0.35);
+    s.position.set(0.3 + (rnd() - 0.5) * 0.35, 0.7 + i * 0.1, 5.25 + (rnd() - 0.5) * 0.35);
     s.rotation.set(rnd(), rnd() * 3, rnd());
     root.add(s);
   }
 
   /* ---------- TV wall: slats, tripod TV, clothes rail, luggage rack ---------- */
-  const slat = new THREE.BoxGeometry(0.03, 2.5, 0.03);
-  const slatCount = 36;
+  const slat = new THREE.BoxGeometry(0.03, 2.4, 0.03);
+  const slatCount = 40;
   const slats = new THREE.InstancedMesh(slat, M.walnut, slatCount);
   const tmp = new THREE.Object3D();
   for (let i = 0; i < slatCount; i++) {
-    tmp.position.set(0.035, 1.25, 2.25 + i * 0.06);
+    tmp.position.set(0.035, 1.2, 2.13 + i * 0.06);
     tmp.updateMatrix(); slats.setMatrixAt(i, tmp.matrix);
   }
   G.left.add(slats);
-  bb(0, 0.02, 0, 2.5, 2.22, 2.25 + slatCount * 0.06, new THREE.MeshStandardMaterial({ color: 0x151210, roughness: 1 }), G.left);
+  bb(0, 0.02, 0, 2.4, 2.10, 4.50, new THREE.MeshStandardMaterial({ color: 0x151210, roughness: 1 }), G.left);
 
   const tv = new THREE.Group();
-  const tvX = 0.62, tvZ = 3.25;
+  const tvX = 0.62, tvZ = 3.30;
   tv.position.set(tvX, 0, tvZ);
   tv.rotation.y = Math.atan2(2.3 - tvX, 4.2 - tvZ);
   root.add(tv);
@@ -607,6 +607,11 @@
   glowBack.position.set(0, 1.18, -0.05); glowBack.rotation.y = Math.PI;
   const tvGlow = new THREE.PointLight(0xffa860, 0.35, 2.2, 1.6); tvGlow.position.set(0, 1.2, -0.2); tv.add(tvGlow);
   [[0, 0.38], [-0.34, -0.2], [0.34, -0.2]].forEach(([x, z]) => rod(new THREE.Vector3(x, 0, z), new THREE.Vector3(0, 1.05, -0.02), 0.013, M.black, tv));
+
+  // slim console between rail and TV
+  bb(0, 0.30, 0.76, 0.8, 1.95, 2.75, M.walnut);
+  [[0.03, 1.98], [0.27, 1.98], [0.03, 2.72], [0.27, 2.72]].forEach(([x, z]) => bb(x - 0.015, x + 0.015, 0, 0.76, z - 0.015, z + 0.015, M.black));
+  cyl(0.045, 0.055, 0.2, new THREE.MeshStandardMaterial({ color: 0x9a6a3a, transparent: true, opacity: 0.75, roughness: 0.1 }), 0.15, 0.9, 2.2);
 
   // clothes rail near entrance on the TV wall
   const rz0 = 0.75, rz1 = 1.8;
@@ -651,10 +656,10 @@
 
   /* ---------- collision (walk mode) ---------- */
   const blocks = [
-    [bedX0, W, bedZ0, bedZ1], [W - 0.45, W, 1.87, 2.27],
-    [1.15, W, sz0, L], [W - 0.97, W, cz0, sz0], [1.45, 2.55, 4.25, 4.8],
+    [bedX0, W, bedZ0, bedZ1], [W - 0.4, W, 1.98, 2.28], [0, 0.3, 1.95, 2.75],
+    [1.15, W, sz0, L], [W - 0.97, W, cz0, sz0], [1.40, 2.40, 4.26, 4.66],
     [bx - 0.14, W, 0, bz + 0.14], [tvX - 0.4, tvX + 0.4, tvZ - 0.4, tvZ + 0.4],
-    [0, 0.55, 0.75, 1.8], [0.55, 1.15, L - 0.7, L], [0, 0.6, L - 0.7, L],
+    [0, 0.55, 0.75, 1.8], [0.45, 1.05, 5.3, L], [0, 0.5, 5.05, 5.45],
   ];
   const R = 0.18;
   function blocked(x, z) {
