@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1180" width="900" height="1180" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="1180" fill="#fbfaf7"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/>
+    </marker>
+  </defs>
+  <style>
+    .t{font-size:30px;font-weight:700;fill:#1c1f20}
+    .h{font-size:22px;font-weight:700;fill:#1c1f20}
+    .l{font-size:18px;fill:#5d6360}
+    .d{stroke:#b0472f;stroke-width:2.5;fill:none}
+    .dt{font-size:26px;font-weight:700;fill:#b0472f}
+    .s{fill:#e7c9ad;stroke:#7a4e2e;stroke-width:3}
+    .c{fill:#f1dcc6;stroke:#7a4e2e;stroke-width:1.5}
+    .g{stroke:#b9bdb9;stroke-width:1.5;stroke-dasharray:6 6;fill:none}
+  </style>
+
+  <text x="40" y="56" class="t">Your L-sofa: sizes to buy</text>
+  <text x="40" y="88" class="l">Scale drawing. All measurements in cm, outside edges including the arms.</text>
+
+  <!-- ===== TOP VIEW ===== scale 2.6 px/cm; origin (230,260) -->
+  <text x="40" y="150" class="h">1 · SEEN FROM ABOVE</text>
+
+  <!-- TV direction -->
+  <rect x="310" y="178" width="210" height="16" rx="3" fill="#2a2d2e"/>
+  <text x="530" y="192" class="l">TV (in front of the window)</text>
+  <path d="M590 300 L590 390" stroke="#5d6360" stroke-width="2.5" marker-end="url(#a)" transform="rotate(180 590 345)"/>
+  <text x="608" y="340" class="l">you face</text>
+  <text x="608" y="362" class="l">the TV</text>
+
+  <!-- chaise: 90 wide x 150 long (x 230..464, y 260..650) ; main: 180 wide x 90 deep (x 230..698, y 416..650) -->
+  <path class="s" d="M230 260 H464 V416 H698 V650 H230 Z"/>
+  <!-- back rest along bottom (back of sofa faces the bed) -->
+  <rect x="230" y="598" width="468" height="52" fill="#c89a73" stroke="#7a4e2e" stroke-width="2"/>
+  <!-- right arm -->
+  <rect x="646" y="416" width="52" height="182" fill="#c89a73" stroke="#7a4e2e" stroke-width="2"/>
+  <!-- left arm along chaise -->
+  <rect x="230" y="260" width="40" height="338" fill="#c89a73" stroke="#7a4e2e" stroke-width="2"/>
+  <!-- seat cushions -->
+  <rect x="274" y="266" width="186" height="150" rx="10" class="c"/>
+  <rect x="274" y="420" width="186" height="174" rx="10" class="c"/>
+  <rect x="464" y="420" width="178" height="174" rx="10" class="c"/>
+  <text x="300" y="350" class="h" fill="#7a4e2e">CHAISE</text>
+  <text x="300" y="376" class="l">(legs up here)</text>
+  <text x="470" y="630" class="l" fill="#3a2a1d">backrest</text>
+
+  <!-- bed behind -->
+  <rect x="300" y="700" width="330" height="60" rx="6" fill="#dfe1df" stroke="#9aa09b" stroke-width="2"/>
+  <text x="385" y="737" class="l">foot of the bed</text>
+  <path class="d" d="M740 650 L740 700" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="752" y="684" class="dt">25</text>
+
+  <!-- width 180 -->
+  <path class="g" d="M230 650 V820 M698 650 V820"/>
+  <path class="d" d="M230 800 H698" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="404" y="784" width="120" height="34" fill="#fbfaf7"/>
+  <text x="464" y="810" class="dt" text-anchor="middle">180 wide</text>
+
+  <!-- depth 90 -->
+  <path class="g" d="M698 416 H800 M698 650 H800"/>
+  <path class="d" d="M790 416 V650" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="802" y="520" class="dt">90</text>
+  <text x="802" y="548" class="l">deep</text>
+
+  <!-- chaise total length 150 -->
+  <path class="g" d="M230 260 H120 M230 650 H120"/>
+  <path class="d" d="M140 260 V650" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="128" y="450" class="dt" text-anchor="end">150</text>
+  <text x="128" y="478" class="l" text-anchor="end">chaise</text>
+  <text x="128" y="500" class="l" text-anchor="end">length</text>
+
+  <!-- chaise width 90 -->
+  <path class="g" d="M230 260 V222 M464 260 V222"/>
+  <path class="d" d="M230 232 H464" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="300" y="218" width="96" height="28" fill="#fbfaf7"/>
+  <text x="347" y="242" class="dt" text-anchor="middle">90</text>
+
+  <text x="40" y="870" class="l">Sitting on it, the chaise is on your LEFT. In shop terms, facing the sofa from the front,</text>
+  <text x="40" y="894" class="l">the chaise is on the RIGHT: look for a "right-hand facing (RAF) chaise".</text>
+
+  <!-- ===== SIDE VIEW ===== scale 2.6 px/cm; floor y=1110, front x=260, back x=494 -->
+  <text x="40" y="950" class="h">2 · SEEN FROM THE SIDE</text>
+  <line x1="200" y1="1110" x2="640" y2="1110" stroke="#1c1f20" stroke-width="2"/>
+  <!-- legs -->
+  <rect x="270" y="1094" width="10" height="16" fill="#3a2a1d"/>
+  <rect x="474" y="1094" width="10" height="16" fill="#3a2a1d"/>
+  <!-- base + seat (seat top 45cm -> y=993) -->
+  <path class="s" d="M260 1094 V993 H440 V1094 Z"/>
+  <!-- backrest to 75 cm (y=915), 20cm thick -->
+  <path class="s" d="M440 1094 V915 Q441 912 446 912 H490 Q494 912 494 918 V1094 Z"/>
+  <path d="M260 1094 H494" stroke="#7a4e2e" stroke-width="3"/>
+  <text x="300" y="1050" class="l">seat</text>
+  <text x="446" y="1000" class="l" transform="rotate(-90 466 1000)">back</text>
+
+  <!-- 75 back height -->
+  <path class="g" d="M494 915 H600 M494 1110 H600"/>
+  <path class="d" d="M590 915 V1110" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="602" y="1010" class="dt">75 max</text>
+  <text x="602" y="1036" class="l">back height, so you can</text>
+  <text x="602" y="1058" class="l">see the TV over it from the bed</text>
+
+  <!-- 45 seat height -->
+  <path class="g" d="M260 993 H200"/>
+  <path class="d" d="M214 993 V1110" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="202" y="1060" class="dt" text-anchor="end">≈45</text>
+  <text x="202" y="1086" class="l" text-anchor="end">seat</text>
+
+  <!-- 90 depth -->
+  <path class="d" d="M260 1140 H494" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="377" y="1170" class="dt" text-anchor="middle">90 deep</text>
+</svg>
