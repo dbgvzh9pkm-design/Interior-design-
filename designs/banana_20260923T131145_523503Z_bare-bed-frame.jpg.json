@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-23T13:11:45.527442+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "4:5",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "abefc111bd80c9dacc650110ec9795ecb6a4fec5eab8f8f40d42193aef6d2d46",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "8cf607a6e84c0edf2bdb49da8895ef3c3f201c023bf179af91fd2f2290942b52",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "cdf3f33224b7cd60f872f2f4fc81a20cc9190ae58e442cd73e3154e703df016d",
+      "bytes": 657537,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "slate bedroom bed-wall view",
+      "role": "style",
+      "purpose": "room finish, walnut tone and lighting only",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260923T131145_523503Z_bare-bed-frame.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 686299,
+    "sha256": "76f501f33e39431f9e9011be84a0b9b36224d2c2d4962edcf9e3f62561f0bd11",
+    "width": 928,
+    "height": 1152
+  },
+  "usage": {
+    "total_tokens": 2226
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
