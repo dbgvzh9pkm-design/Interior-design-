@@ -4,6 +4,7 @@
     <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/>
     </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a4e2e"/></marker>
     <pattern id="wall" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <rect width="8" height="8" fill="#3a3c3d"/><line x1="0" y1="0" x2="0" y2="8" stroke="#55585a" stroke-width="3"/>
     </pattern>
@@ -39,23 +40,31 @@
   <text x="848" y="760" class="l" transform="rotate(90 848 760)">RIGHT WALL</text>
   <text x="62" y="620" class="l" transform="rotate(-90 62 620)">LEFT WALL (TV side)</text>
 
-  <!-- sofa: back 15 cm off wall => y=236; main depth 90 => y 236..452 ; main x 215..815 (250 cm) ; chaise x 599..815 (90), y 236..620 (160) -->
-  <path class="s" d="M215 236 H815 V620 H599 V452 H215 Z"/>
-  <rect x="215" y="236" width="600" height="46" class="arm"/>       <!-- backrest along window -->
-  <rect x="215" y="282" width="38" height="170" class="arm"/>       <!-- left arm -->
-  <rect x="775" y="282" width="40" height="338" class="arm"/>       <!-- right arm / chaise back -->
-  <rect x="257" y="286" width="170" height="162" rx="10" class="c"/>
-  <rect x="431" y="286" width="164" height="162" rx="10" class="c"/>
-  <rect x="603" y="286" width="168" height="162" rx="10" class="c"/>
-  <rect x="603" y="452" width="168" height="164" rx="10" class="c"/>
-  <text x="628" y="540" class="h" fill="#7a4e2e">CHAISE</text>
-  <text x="628" y="566" class="l">(legs up)</text>
+  <!-- sofa footprint: window run x 215..815 (250) y 236..452 (90 deep); right-wall run x 599..815 (90) y 236..620 (160) -->
+  <path class="s" d="M235 236 H815 V620 H599 V452 H235 Q215 452 215 432 V256 Q215 236 235 236 Z"/>
+  <rect x="235" y="236" width="580" height="46" class="arm"/>        <!-- backrest along the window -->
+  <rect x="775" y="282" width="40" height="338" class="arm"/>        <!-- backrest along the right wall -->
+  <rect x="599" y="584" width="176" height="36" class="arm"/>        <!-- arm at the bed end -->
+  <!-- long lounge cushion along the window (open end on the left, no arm) -->
+  <rect x="221" y="286" width="374" height="162" rx="14" class="c"/>
+  <rect x="599" y="286" width="172" height="162" rx="10" class="c"/>
+  <rect x="603" y="452" width="168" height="128" rx="10" class="c"/>
+  <text x="250" y="352" class="h" fill="#7a4e2e">CHAISE: legs stretch this way</text>
+  <path d="M560 380 H250" stroke="#7a4e2e" stroke-width="3" marker-end="url(#b)"/>
+  <text x="250" y="420" class="l">parallel to the window, open end (no arm)</text>
+  <text x="612" y="506" class="h" fill="#7a4e2e">SEATS</text>
+  <text x="612" y="532" class="l">face the TV</text>
+  <text x="612" y="554" class="l">(left wall)</text>
   <text x="470" y="266" class="l" fill="#3a2a1d">backrest</text>
 
   <!-- floor lamp corner -->
   <circle cx="150" cy="290" r="30" fill="#f4ecd9" stroke="#9a8a70" stroke-width="2"/>
   <text x="150" y="340" class="l" text-anchor="middle" font-size="15">floor lamp</text>
 
+  <!-- TV on tripod near the left wall -->
+  <rect x="104" y="460" width="14" height="110" rx="3" fill="#2a2d2e"/>
+  <text x="124" y="520" class="l" font-size="16">TV</text>
+  <path d="M590 520 H300" stroke="#9aa09b" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#b)"/>
   <!-- coffee table -->
   <rect x="350" y="500" width="190" height="96" rx="4" fill="#d9c2a8" stroke="#7a4e2e" stroke-width="1.5"/>
   <text x="445" y="554" class="l" text-anchor="middle" font-size="15">coffee table</text>
@@ -100,8 +109,8 @@
   <path class="d" d="M90 600 H215" marker-start="url(#a)" marker-end="url(#a)"/>
   <text x="152" y="590" class="dt" text-anchor="middle" font-size="22">52</text>
 
-  <text x="40" y="1000" class="l">Standing at the door looking at it, the chaise is on the RIGHT: in shops look for a</text>
-  <text x="40" y="1024" class="l">"right-hand facing (RAF) chaise sectional". Overall: 250 × 160 cm.</text>
+  <text x="40" y="1000" class="l">Corner sofa, overall 250 × 160 cm. The long 250 side goes under the window with an open</text>
+  <text x="40" y="1024" class="l">chaise end on the LEFT (seen from the door) = "left-hand facing (LAF) chaise" in shops.</text>
 
   <!-- ===== SIDE VIEW ===== scale 2.4 px/cm floor y=1290 -->
   <text x="40" y="1080" class="h">2 · SEEN FROM THE SIDE</text>
