@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="1500" fill="#fbfaf7"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/></marker>
+    <pattern id="wall" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#3a3c3d"/><line x1="0" y1="0" x2="0" y2="8" stroke="#55585a" stroke-width="3"/></pattern>
+  </defs>
+  <style>
+    .t{font-size:30px;font-weight:700;fill:#1c1f20}
+    .h{font-size:17px;font-weight:700;fill:#1c1f20}
+    .l{font-size:15px;fill:#4d5350}
+    .z{font-size:13px;font-weight:700;letter-spacing:.12em;fill:#8a5a3b}
+    .d{stroke:#b0472f;stroke-width:2;fill:none}
+    .dt{font-size:17px;font-weight:700;fill:#b0472f}
+    .f{fill:#e9dccb;stroke:#8a5a3b;stroke-width:2}
+    .soft{fill:#dfe6da;stroke:#6f8466;stroke-width:2}
+    .oak{fill:#d9b98e;stroke:#8a6a45;stroke-width:2}
+  </style>
+  <text x="40" y="54" class="t">Airbnb studio: designer layout</text>
+  <text x="40" y="84" class="l">Your measured room, 302 × 614 cm. Door at the bottom, window at the top. Scale 2 px = 1 cm.</text>
+
+  <!-- room: x0=150 (left wall), right wall x=754; window wall y=140 ; door wall y=1368 -->
+  <!-- zone bands -->
+  <rect x="150" y="140" width="604" height="418" fill="#f3ece2"/>
+  <rect x="150" y="558" width="604" height="580" fill="#eef1ea"/>
+  <rect x="150" y="1138" width="604" height="230" fill="#efeae6"/>
+  <text x="770" y="360" class="z">SLEEP</text>
+  <text x="770" y="850" class="z">LIVE + WORK</text>
+  <text x="770" y="1260" class="z">ARRIVE</text>
+
+  <!-- walls -->
+  <rect x="138" y="128" width="628" height="12" fill="url(#wall)"/>
+  <rect x="138" y="128" width="12" height="1252" fill="url(#wall)"/>
+  <rect x="754" y="128" width="12" height="1252" fill="url(#wall)"/>
+  <rect x="138" y="1368" width="12" height="12" fill="url(#wall)"/>
+  <!-- window x 125..225 cm -->
+  <rect x="400" y="126" width="200" height="16" fill="#cfe0e3" stroke="#6d8f96" stroke-width="2"/>
+  <text x="500" y="118" class="l" text-anchor="middle">window</text>
+  <line x1="160" y1="164" x2="744" y2="164" stroke="#8a6a45" stroke-width="3" stroke-dasharray="3 5"/>
+  <text x="170" y="158" class="l" font-size="12">full-width blackout curtain (ceiling track)</text>
+
+  <!-- BED: x 68.5..233.5, z 405..614 -> y = 1368 - z*2 ; window wall at y 140 = z 614 -->
+  <rect x="287" y="174" width="330" height="394" rx="6" class="f"/>
+  <rect x="287" y="174" width="330" height="18" fill="#8a6a45"/>
+  <rect x="300" y="200" width="140" height="50" rx="10" fill="#fbf6ee" stroke="#b9a58a"/>
+  <rect x="464" y="200" width="140" height="50" rx="10" fill="#fbf6ee" stroke="#b9a58a"/>
+  <text x="452" y="400" class="h" text-anchor="middle">Queen bed 160 × 200</text>
+  <text x="452" y="422" class="l" text-anchor="middle">headboard against the window wall</text>
+  <!-- nightstands -->
+  <rect x="227" y="174" width="60" height="80" class="oak"/>
+  <rect x="617" y="174" width="60" height="80" class="oak"/>
+  <circle cx="257" cy="200" r="6" fill="#f0c36b"/><circle cx="647" cy="200" r="6" fill="#f0c36b"/>
+  <!-- walkways -->
+  <path class="d" d="M150 470 H287" marker-start="url(#a)" marker-end="url(#a)"/><text x="218" y="462" class="dt" text-anchor="middle">68</text>
+  <path class="d" d="M617 470 H754" marker-start="url(#a)" marker-end="url(#a)"/><text x="686" y="462" class="dt" text-anchor="middle">68</text>
+  <!-- rug -->
+  <rect x="240" y="520" width="424" height="150" rx="4" fill="none" stroke="#b9a58a" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- SOFA BED on right wall: x 212..302, z 155..335 -> x px 574..754, y 698..1058 -->
+  <rect x="574" y="698" width="180" height="360" rx="8" class="soft"/>
+  <rect x="724" y="698" width="30" height="360" fill="#a7b59d"/>
+  <text x="640" y="870" class="h" text-anchor="middle" transform="rotate(-90 640 870)">Sofa bed 180 × 90</text>
+  <text x="664" y="870" class="l" text-anchor="middle" transform="rotate(-90 664 870)">sleeps 2 more guests</text>
+  <!-- coffee table round -->
+  <circle cx="450" cy="880" r="30" class="oak"/>
+  <!-- floor lamp -->
+  <circle cx="710" cy="668" r="16" fill="#f4ecd9" stroke="#9a8a70" stroke-width="2"/>
+
+  <!-- TV on swivel stand near left wall: x 35, z 365 -> px 220, y 638 -->
+  <rect x="188" y="600" width="12" height="100" rx="2" fill="#2a2d2e" transform="rotate(-20 194 650)"/>
+  <text x="214" y="610" class="h">TV</text>
+  <text x="214" y="628" class="l" font-size="12">swivel stand: turns to</text>
+  <text x="214" y="643" class="l" font-size="12">the bed or the sofa</text>
+
+  <!-- desk on left wall: x 0..45, z 225..325 -> px 150..240, y 718..918 -->
+  <rect x="150" y="718" width="90" height="200" class="oak"/>
+  <rect x="252" y="790" width="46" height="50" rx="8" fill="#cfd6ca" stroke="#6f8466" stroke-width="1.5"/>
+  <text x="160" y="822" class="h" transform="rotate(-90 170 822)">Desk 100 × 45</text>
+
+  <!-- clothes rail + luggage: x 0..35, z 115..205 -> y 958..1138 -->
+  <rect x="150" y="958" width="70" height="180" fill="#ece3d6" stroke="#8a6a45" stroke-width="2"/>
+  <line x1="185" y1="966" x2="185" y2="1130" stroke="#1c1f20" stroke-width="3"/>
+  <text x="232" y="1030" class="h">Open wardrobe</text>
+  <text x="232" y="1050" class="l">rail + shelf + luggage rack</text>
+
+  <!-- bathroom: x 80..302, z 0..105 -> px 310..754, y 1158..1368 -->
+  <rect x="310" y="1158" width="444" height="210" fill="#e6eef0" stroke="#6d8f96" stroke-width="2.5"/>
+  <polyline points="286,1368 286,1134 754,1134" fill="none" stroke="#8a6a45" stroke-width="3" stroke-dasharray="3 5"/>
+  <text x="532" y="1260" class="h" text-anchor="middle">Bathroom (glass box)</text>
+  <text x="532" y="1282" class="l" text-anchor="middle">wrapped in a ceiling-track curtain</text>
+  <!-- corridor -->
+  <text x="160" y="1210" class="l">corridor 80</text>
+  <rect x="150" y="1238" width="8" height="110" fill="#c9c9c9" stroke="#7a7a7a"/>
+  <text x="166" y="1300" class="l" font-size="12">full-length</text>
+  <text x="166" y="1315" class="l" font-size="12">mirror + hooks</text>
+  <!-- door -->
+  <path d="M152 1368 A 140 140 0 0 1 292 1228" fill="none" stroke="#1c1f20" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="170" y="1395" class="h">Entry door</text>
+
+  <!-- overall dims -->
+  <path class="d" d="M150 1430 H754" marker-start="url(#a)" marker-end="url(#a)"/><text x="452" y="1422" class="dt" text-anchor="middle">302</text>
+  <path class="d" d="M100 140 V1368" marker-start="url(#a)" marker-end="url(#a)"/><text x="90" y="760" class="dt" text-anchor="end">614</text>
+  <text x="40" y="1470" class="l">Walkways: 68 each side of the bed · 70 between the bed and the sofa · 110+ through the middle.</text>
+</svg>
