@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-23T19:16:52.211055+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "a4fab0f017e0350915ec1c9fe2346b097e038ecf1b7d48c4fdbbaeb9e69c6453",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "ef183a8af2406344f69e69f54099856800336225058bbfd700860da3e56172f0",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "61d446688f89c7714de88a99f3ef304215078961d7f0d8e21d52fe4fc824ca04",
+      "bytes": 98884,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "empty bedroom photo from user's video",
+      "role": "object",
+      "purpose": "real room geometry, camera, window and floor",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "86adedfa0fabc5b082fb49bd4273d1dfeae112db10b985ac52c1f47faedc9960",
+      "bytes": 668332,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "Airbnb concept render",
+      "role": "style",
+      "purpose": "finishes, colours, furniture styles and lighting",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260923T191652_208614Z_airbnb-concept-door-v3.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 660739,
+    "sha256": "12b3a028d110b1f6d7be26a1ac62d215c2ddf45a0b6ecfcb2d31874f9f67415d",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2801
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
