@@ -92,7 +92,7 @@
   <path class="g" d="M190 1080 V1150 M770 1080 V1150"/>
   <path class="d" d="M190 1140 H770" marker-start="url(#a)" marker-end="url(#a)"/>
   <rect x="400" y="1124" width="160" height="30" fill="#fbfaf7"/>
-  <text x="480" y="1148" class="dt" text-anchor="middle">208 long</text>
+  <text x="480" y="1148" class="dt" text-anchor="middle">209 long</text>
   <path class="d" d="M190 750 H201" marker-start="url(#a)" marker-end="url(#a)"/>
   <text x="206" y="756" class="sm">4 thick</text>
 
@@ -146,9 +146,9 @@
 
   <!-- ================= CUT LIST ================= -->
   <text x="40" y="1860" class="h">What to cut (solid walnut or walnut-veneer plywood, dark walnut stain)</text>
-  <text x="40" y="1894" class="l">• Headboard panel: 167 × 95 × 4 cm (fixed to the head legs, bottom edge at 15 cm)</text>
-  <text x="40" y="1922" class="l">• Side rails ×2: 204 × 15 × 3 cm (headboard to foot) · Foot rail ×1: 161 × 15 × 3 cm (fits between them)</text>
-  <text x="40" y="1950" class="l">• Legs ×4: 5 × 5 × 15 cm, slightly tapered · Centre legs ×2: 5 × 5 × 14 cm (under the beam)</text>
+  <text x="40" y="1894" class="l">• Headboard panel: 157 × 95 × 4 cm between two 5 × 5 × 110 cm head legs (bottom edge at 15 cm)</text>
+  <text x="40" y="1922" class="l">• Side rails ×2: 199 × 15 × 3 cm (leg to leg) · Foot rail ×1: 157 × 15 × 3 cm (between the foot legs)</text>
+  <text x="40" y="1950" class="l">• Foot legs ×2: 5 × 5 × 30 cm, tapered below 15 cm · Centre legs ×2: 5 × 5 × 14 cm (under the beam)</text>
   <text x="40" y="1978" class="l">• Centre beam ×1: 201 × 9 × 4.5 cm · Ledger strips ×2: 201 × 3 × 3 cm (inside the side rails)</text>
   <text x="40" y="2006" class="l">• Slats ×15: 161 × 7 × 1.8 cm (pine or birch is fine; they're hidden), screwed to ledgers and beam</text>
   <text x="40" y="2046" class="sm">Slats sit 5 cm below the rail top (at 25 cm), so the mattress is held in and its top ends up about 50 cm from the floor.</text>
