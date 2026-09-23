@@ -22,7 +22,7 @@ sheet to a carpenter.
 | 1 | Foot rail | 157 × 15 × 3 (between the two foot legs) | Solid walnut or oak |
 | 1 | Centre beam | 201 × 9 × 4.5 | Pine or spruce (hidden) |
 | 2 | Centre legs | 5 × 5 × 14 | Pine (hidden) |
-| 2 | Support strips (ledgers) | 201 × 3 × 3 | Pine |
+| 2 | Support strips (ledgers) | 199 × 3 × 3 (same as the side rails) | Pine |
 | 15 | Slats | 161 × 7 × 1.8 | Pine or birch |
 
 **Hardware:**
@@ -30,7 +30,7 @@ sheet to a carpenter.
 - About 40 × 4 × 40 mm wood screws (ledgers and slats)
 - 8 × 5 × 70 mm screws (headboard to head legs)
 - 2 × 8 mm dowels or 2 metal corner braces (centre beam to head and foot)
-- Wood glue, 4 felt pads
+- Wood glue, 6 felt pads
 
 **Finish:** dark walnut stain (skip it if you use real walnut), then 2 coats of matte
 **hardwax oil** or water-based matte polyurethane.
@@ -56,7 +56,7 @@ everything to size), sander with 120 and 180 grit, clamps, tape measure, square,
 - Fit the **157 cm headboard panel** between them, flush with the back of the legs. Its bottom edge sits **15 cm** off the floor and its top is level with the leg tops at 110 cm.
 - Glue, then screw through each leg into the panel edge: 4 × 70 mm screws per leg, or use dowels for no visible screws.
 
-**3. Tape the foot legs.**
+**3. Taper the foot legs.**
 - Mark 15 cm up from the bottom on each foot leg.
 - The taper runs from that mark down to 3.5 cm at the floor, on the two inside faces.
 - Cut the taper, then sand.
