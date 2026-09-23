@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 2120" width="1000" height="2120" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="2120" fill="#fbfaf7"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/>
+    </marker>
+    <pattern id="grain" width="120" height="14" patternUnits="userSpaceOnUse">
+      <rect width="120" height="14" fill="#8a5a3b"/>
+      <path d="M0 4 Q30 2 60 5 T120 4" stroke="#6f452b" stroke-width="1.2" fill="none"/>
+      <path d="M0 10 Q40 12 80 9 T120 10" stroke="#9b6a48" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  <style>
+    .t{font-size:32px;font-weight:700;fill:#1c1f20}
+    .h{font-size:22px;font-weight:700;fill:#1c1f20}
+    .l{font-size:18px;fill:#5d6360}
+    .sm{font-size:15px;fill:#5d6360}
+    .d{stroke:#b0472f;stroke-width:2.5;fill:none}
+    .dt{font-size:24px;font-weight:700;fill:#b0472f}
+    .wood{fill:url(#grain);stroke:#4a2e1c;stroke-width:2}
+    .dark{fill:#6f452b;stroke:#4a2e1c;stroke-width:2}
+    .leg{fill:#5a3822;stroke:#3a2414;stroke-width:1.5}
+    .ghost{fill:none;stroke:#8f969a;stroke-width:2;stroke-dasharray:8 6}
+    .g{stroke:#b9bdb9;stroke-width:1.5;stroke-dasharray:6 6;fill:none}
+    .slat{fill:#c79a6e;stroke:#7a4e2e;stroke-width:1.2}
+  </style>
+
+  <text x="40" y="58" class="t">Bed frame without the mattress</text>
+  <text x="40" y="92" class="l">Walnut platform bed with a panel headboard, for a 160 × 200 cm queen mattress. Scale drawing, cm.</text>
+
+  <!-- ================= 1. FRONT VIEW ================= px/cm 2.8, floor y=560, left x=266 -->
+  <text x="40" y="150" class="h">1 · FRONT VIEW (standing at the foot of the bed)</text>
+  <line x1="180" y1="560" x2="840" y2="560" stroke="#1c1f20" stroke-width="2"/>
+  <!-- headboard panel behind: 167 wide, 15 → 110 cm -->
+  <rect x="266" y="252" width="468" height="266" class="wood"/>
+  <line x1="266" y1="340" x2="734" y2="340" stroke="#4a2e1c" stroke-width="1" opacity=".5"/>
+  <line x1="266" y1="430" x2="734" y2="430" stroke="#4a2e1c" stroke-width="1" opacity=".5"/>
+  <text x="500" y="300" class="l" text-anchor="middle" style="fill:#f7eee4;font-weight:700">HEADBOARD (behind)</text>
+  <!-- mattress ghost: 160 wide, 25 → 50 cm -->
+  <rect x="276" y="420" width="448" height="70" class="ghost"/>
+  <text x="500" y="462" class="sm" text-anchor="middle" style="fill:#f7eee4">mattress sits here (not built)</text>
+  <!-- foot rail: 15 → 30 cm -->
+  <rect x="266" y="476" width="468" height="42" class="dark"/>
+  <text x="500" y="503" class="sm" text-anchor="middle" style="fill:#f7eee4;font-weight:700">foot rail</text>
+  <!-- legs (tapered) 5×5 cm, 0 → 15 cm -->
+  <path class="leg" d="M266 518 H280 L277 560 H269 Z"/>
+  <path class="leg" d="M720 518 H734 L731 560 H723 Z"/>
+  <!-- slat level -->
+  <line x1="280" y1="490" x2="720" y2="490" stroke="#7a4e2e" stroke-width="2" stroke-dasharray="3 4"/>
+
+  <!-- dims front -->
+  <path class="g" d="M266 560 V610 M734 560 V610"/>
+  <path class="d" d="M266 600 H734" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="440" y="586" width="120" height="30" fill="#fbfaf7"/>
+  <text x="500" y="610" class="dt" text-anchor="middle">167 wide</text>
+
+  <path class="g" d="M734 252 H820 M734 476 H790 M734 518 H790"/>
+  <path class="d" d="M812 252 V560" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="824" y="392" class="dt">110</text>
+  <text x="824" y="416" class="sm">headboard top</text>
+  <path class="d" d="M780 476 V560" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="768" y="508" class="dt" text-anchor="end" font-size="20">30</text>
+  <text x="824" y="532" class="sm">rail top 30</text>
+  <text x="824" y="552" class="sm">legs 15</text>
+
+  <path class="g" d="M266 490 H200"/>
+  <path class="d" d="M210 490 V560" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="198" y="520" class="dt" text-anchor="end" font-size="20">25</text>
+  <text x="198" y="542" class="sm" text-anchor="end">slats</text>
+  <path class="g" d="M276 420 H200"/>
+  <path class="d" d="M232 420 V490" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="198" y="454" class="sm" text-anchor="end">≈25 mattress</text>
+
+  <!-- ================= 2. SIDE VIEW ================= px/cm 2.8, floor y=1080, head x=190 -->
+  <text x="40" y="700" class="h">2 · SIDE VIEW (headboard on the left)</text>
+  <line x1="150" y1="1080" x2="840" y2="1080" stroke="#1c1f20" stroke-width="2"/>
+  <!-- headboard 4 cm thick, 15 → 110 -->
+  <rect x="190" y="772" width="11" height="266" class="wood"/>
+  <!-- mattress ghost 200 long, 25 → 50 -->
+  <rect x="206" y="940" width="560" height="70" class="ghost"/>
+  <text x="486" y="982" class="sm" text-anchor="middle">mattress (not built)</text>
+  <!-- side rail 15 → 30 -->
+  <rect x="201" y="996" width="569" height="42" class="dark"/>
+  <text x="486" y="1023" class="sm" text-anchor="middle" style="fill:#f7eee4;font-weight:700">side rail (15 cm tall)</text>
+  <!-- legs -->
+  <path class="leg" d="M190 1038 H204 L201 1080 H193 Z"/>
+  <path class="leg" d="M756 1038 H770 L767 1080 H759 Z"/>
+  <path class="leg" d="M473 1038 H487 L484 1080 H476 Z" opacity=".55"/>
+  <text x="480" y="1104" class="sm" text-anchor="middle">centre legs (under the middle beam)</text>
+
+  <!-- dims side -->
+  <path class="g" d="M190 1080 V1150 M770 1080 V1150"/>
+  <path class="d" d="M190 1140 H770" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="400" y="1124" width="160" height="30" fill="#fbfaf7"/>
+  <text x="480" y="1148" class="dt" text-anchor="middle">208 long</text>
+  <path class="d" d="M190 750 H201" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="206" y="756" class="sm">4 thick</text>
+
+  <!-- ================= 3. TOP VIEW ================= px/cm 2.8, head x=190, top y=1270 -->
+  <text x="40" y="1230" class="h">3 · FROM ABOVE, NO MATTRESS (the slats)</text>
+  <!-- headboard -->
+  <rect x="190" y="1270" width="11" height="468" class="wood"/>
+  <!-- rails (3 cm) -->
+  <rect x="201" y="1270" width="569" height="8" class="dark"/>
+  <rect x="201" y="1730" width="569" height="8" class="dark"/>
+  <rect x="762" y="1270" width="8" height="468" class="dark"/>
+  <!-- ledger strips inside rails -->
+  <rect x="201" y="1278" width="561" height="7" fill="#a47a55"/>
+  <rect x="201" y="1723" width="561" height="7" fill="#a47a55"/>
+  <!-- centre beam -->
+  <rect x="201" y="1497" width="561" height="14" class="dark"/>
+  <!-- slats: 15 × 7 cm, pitch 13.8 cm (38.64 px), inner length 201 cm from x=201 -->
+  <g>
+    <rect x="201.0" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="239.6" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="278.3" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="316.9" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="355.6" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="394.2" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="432.8" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="471.5" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="510.1" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="548.8" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="587.4" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="626.0" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="664.7" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="703.3" y="1278" width="19.6" height="452" class="slat"/>
+    <rect x="742.0" y="1278" width="19.6" height="452" class="slat"/>
+  </g>
+  <!-- redraw beam edges over slats faintly -->
+  <rect x="201" y="1497" width="561" height="14" fill="none" stroke="#4a2e1c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="486" y="1492" class="sm" text-anchor="middle">centre beam under the slats</text>
+
+  <!-- dims top -->
+  <path class="g" d="M201 1738 V1800 M762 1738 V1800"/>
+  <path class="d" d="M201 1790 H762" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="400" y="1774" width="170" height="30" fill="#fbfaf7"/>
+  <text x="482" y="1798" class="dt" text-anchor="middle">201 inside</text>
+  <path class="g" d="M770 1278 H850 M770 1730 H850"/>
+  <path class="d" d="M842 1278 V1730" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="854" y="1500" class="dt">161</text>
+  <text x="854" y="1524" class="sm">inside</text>
+  <path class="d" d="M201 1255 H220" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="226" y="1260" class="sm">slat 7</text>
+  <text x="300" y="1260" class="sm">15 slats, gaps ≈ 6.8 (keep under 7)</text>
+
+  <!-- ================= CUT LIST ================= -->
+  <text x="40" y="1860" class="h">What to cut (solid walnut or walnut-veneer plywood, dark walnut stain)</text>
+  <text x="40" y="1894" class="l">• Headboard panel: 167 × 95 × 4 cm (fixed to the head legs, bottom edge at 15 cm)</text>
+  <text x="40" y="1922" class="l">• Side rails ×2: 204 × 15 × 3 cm (headboard to foot) · Foot rail ×1: 161 × 15 × 3 cm (fits between them)</text>
+  <text x="40" y="1950" class="l">• Legs ×4: 5 × 5 × 15 cm, slightly tapered · Centre legs ×2: 5 × 5 × 20 cm (under the beam)</text>
+  <text x="40" y="1978" class="l">• Centre beam ×1: 201 × 9 × 4.5 cm · Ledger strips ×2: 201 × 3 × 3 cm (inside the side rails)</text>
+  <text x="40" y="2006" class="l">• Slats ×15: 161 × 7 × 1.8 cm (pine or birch is fine; they're hidden), screwed to ledgers and beam</text>
+  <text x="40" y="2046" class="sm">Slats sit 5 cm below the rail top (at 25 cm), so the mattress is held in and its top ends up about 50 cm from the floor.</text>
+  <text x="40" y="2070" class="sm">Inside size 161 × 201 gives the 160 × 200 mattress 0.5 cm of play each side.</text>
+</svg>
