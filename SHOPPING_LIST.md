@@ -19,7 +19,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec / what to ask for | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Slate-effect finish, **all walls** (ceiling stays as is) | **Smooth, large-format dark charcoal slate look with fine hairline cracks**, not stacked stone. Options: wipeable slate-effect vinyl wallpaper (cheapest), flexible thin slate-veneer sheets (most realistic), or sealed charcoal microcement. Walls: left 17.6 m² + right 14.6 m² + window wall ≈ 7.7 m² + corridor end ≈ 0.7 m² ≈ **41 m²; buy 45 m²** | "large slate effect wallpaper charcoal", "flexible slate veneer sheet" | $220–1,100 |
+| ☐ | Wallpaper **7958-3**, **all walls** (ceiling stays white) | Concrete-effect wallpaper, mottled medium-dark grey (≈ #7A7B77), **pattern repeat 60 cm**. Walls ≈ 41 m². Buy **≈ 10–11 standard rolls (0.53 × 10 m)** or **≈ 5 wide rolls (1.06 × 15.6 m)**, including a spare. **All rolls from the same batch number**; get a physical sample first | "7958-3" at your wallpaper shop | depends on shop |
 
 ## 2. Lighting
 
@@ -109,7 +109,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ## Order of work
 
-1. Walls: prep and prime, then the slate-effect finish on every wall (leave the ceiling).
+1. Walls: prep and prime, then hang wallpaper 7958-3 on every wall (leave the ceiling white).
 2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.

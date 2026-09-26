@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T13:54:18.518579+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "37011994942127703fe8669d4fcb07bbe04b10ad21322ed24f0dfc969ff36428",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "eb9edb924e19f200823d3a84e35b337b0a48732b9f10bbd80ae8f4be9954b93b",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "b43d9a1c9a8c5f88cf4880a0ad13717a1b34433021a3ab7313b6ee358ce4881d",
+      "bytes": 636781,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "slate view to edit (w7958-overhead)",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T135418_513791Z_w7958-overhead.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 635428,
+    "sha256": "52e0061a58c2176afacb5cdb4a96d2a7e7c8e8f7ccaedc67a490421e27e170ae",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2087
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
