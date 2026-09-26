@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:02:05.507045+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "5207444ed0afba6eb80532807d1ffb31043335f2ebe4752a8be9e7b6bbef3632",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "9e7f46fd2187ac075b9b6bfe0caffe01514e266b9388f595d7aefd12d13ae34a",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "01ed8d6d4f2a7d4e1e320a77eef269a6433ae1889c6d847735f3b1c0d34a62b8",
+      "bytes": 655064,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7958-3 wallpaper view from the sofa",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T140205_501576Z_wallpaper-7958-3-light-textiles.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 678904,
+    "sha256": "e9ecd4626da69079a9901bbddde16660f76cc339f2d559f882e418fc18b53144",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2029
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
