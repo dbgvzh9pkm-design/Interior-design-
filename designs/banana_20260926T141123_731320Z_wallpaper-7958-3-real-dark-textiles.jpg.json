@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:11:23.736982+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "4d3fc63c10149b702d445e99a0b58ead484c7cfe9355cd73e5a12f3a63bb60b6",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "4c29c1f903f3ed2722a9c09862209cbf5c5e482723de3afb631f1ea3e2daf5c8",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "69ee3e9225c49252c575ec00be66356089e241f2c0bd1432b1ae8cdcf7a389cc",
+      "bytes": 683054,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "real 7958-3 view with light textiles",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T141123_731320Z_wallpaper-7958-3-real-dark-textiles.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 671437,
+    "sha256": "3eac8c4779b0bce1464b57f9f3828e3899e481ce0f6ada56df7924109b5bef87",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2012
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
