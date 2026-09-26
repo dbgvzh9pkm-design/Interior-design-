@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:21:08.192288+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "b3839b58e0fb830b086ff3bb4c3be013bd81a275660e0bfacb2c79ed1d4e3ffd",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "d2240ec02de9533e7eccadd529d1ac49dd4e47b8c46b1238e9cd54a20e8d699c",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "48d226acdda6c781b9cc5700b3e6cc0884d77b2277124710f9eb4897fafecca2",
+      "bytes": 696458,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave stone view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "bd8352faaba383ba0069edc34be0bd9dedcfbbf1f7cb51c06c177e91284e5dd1",
+      "bytes": 396410,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7947-1 rust swatch",
+      "role": "style",
+      "purpose": "wall texture for the far window wall",
+      "subject_id": "wallpaper-7947-1"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T142108_187111Z_cave-stone-rust.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 699713,
+    "sha256": "996a4ff1aca45576618a7c72f4f64e7a554dec6d3be4e30ed67a999a1c7fc32d",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2392
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
