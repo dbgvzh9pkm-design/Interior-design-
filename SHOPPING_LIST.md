@@ -19,7 +19,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec / what to ask for | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wallpaper **7958-3**, **all walls** (ceiling stays white) | Concrete-effect wallpaper, mottled medium-dark grey (≈ #7A7B77), **pattern repeat 60 cm**. Walls ≈ 41 m². Buy **≈ 10–11 standard rolls (0.53 × 10 m)** or **≈ 5 wide rolls (1.06 × 15.6 m)**, including a spare. **All rolls from the same batch number**; get a physical sample first | "7958-3" at your wallpaper shop | depends on shop |
+| ☐ | Wallpaper **7958-3**, **all walls** (ceiling stays white) | Concrete-effect wallpaper, dark neutral grey with bold light/dark clouds (≈ #5E5B5E, per the catalogue room photo), **pattern repeat 60 cm**. Walls ≈ 41 m². Buy **≈ 10–11 standard rolls (0.53 × 10 m)** or **≈ 5 wide rolls (1.06 × 15.6 m)**, including a spare. **All rolls from the same batch number**; get a physical sample first | "7958-3" at your wallpaper shop | depends on shop |
 
 ## 2. Lighting
 
