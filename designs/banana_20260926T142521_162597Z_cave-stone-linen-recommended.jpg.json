@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:25:21.168364+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "d4b8f7e99de219d8361265b7638efef7093a0c0d54ed0d76a4d4097068bc0da0",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "6691533cc9c493db7778172e105c9b951b6c18df334e38de3b617299ad1e8e35",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "48d226acdda6c781b9cc5700b3e6cc0884d77b2277124710f9eb4897fafecca2",
+      "bytes": 696458,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave stone view without rust",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "f19c6546198a10f2e45df9d66798fbbf7891df66899ac30b2a89beeafeb4509b",
+      "bytes": 42248,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7932-3 linen swatch",
+      "role": "style",
+      "purpose": "wall texture for all walls except the bed wall",
+      "subject_id": "wallpaper-7932-3"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T142521_162597Z_cave-stone-linen-recommended.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 690507,
+    "sha256": "7792a6cd2027168a31dd1cc568bb7a47a0ad67b8980859890de1ae0333d640d6",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2391
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

@@ -19,10 +19,9 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec / what to ask for | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wallpaper **7943-1 Real Stone**, left wall behind the bed (feature wall) | Brown / beige / rust stacked-stone print. Wall 614 × 287 cm ≈ 17.6 m² (6 wide strips). Buy **2 wide rolls (1.06 × 15.6 m)** (≈ 4 standard 0.53 × 10 m rolls). Hang the frames, shelf and sconces on top of it | "7943-1" V-Concept (JYJ) | depends on shop |
-| ☐ | Wallpaper **7947-1 Rust Paint**, far window wall | Orange rust patina with teal flecks. Wall 302 × 287 cm minus the window ≈ 7.7 m² (3 wide strips). Buy **1 wide roll** (≈ 2 standard rolls) | "7947-1" V-Concept (JYJ) | depends on shop |
-| ☐ | Wallpaper **7944-3 Marble (brown rock)**, right wall + corridor end | Taupe-brown veined stone in a vertical chevron. Right wall 509 cm ≈ 14.6 m² + corridor end ≈ 0.7 m² (6 wide strips). Buy **2 wide rolls** (≈ 5 standard rolls) | "7944-3" V-Concept (JYJ) | depends on shop |
-| | *For all three* | Walls ≈ 41 m² in total, **5 wide rolls**; each design has spare strips included. **Every roll of the same design from one batch number.** Get physical samples first: in the renders 7944-3 looks greener than the real paper, which is warmer brown. Ceiling stays white | | |
+| ☐ | Wallpaper **7943-1 Real Stone**, left wall behind the bed (feature wall) | Brown / beige / rust stacked-stone print, pattern repeat 52 cm. Wall 614 × 287 cm ≈ 17.6 m² (6 wide strips). Buy **2 wide rolls (1.06 × 15.6 m)** (≈ 4 standard 0.53 × 10 m rolls). Hang the frames, shelf and sconces on top of it | "7943-1" V-Concept (JYJ) | depends on shop |
+| ☐ | Wallpaper **7932-3** (warm taupe-brown linen texture), **every other wall**: right wall, window wall, corridor end | Plain woven-linen look, no pattern repeat (little waste). Right 14.6 + window wall 7.7 + corridor 0.7 ≈ 23 m² (9 wide strips). Buy **2 wide rolls** (≈ 6 standard rolls) | "7932-3" V-Concept (JYJ) | depends on shop |
+| | *Both* | **4 wide rolls in total.** Each design from one batch number. Get physical samples first. Ceiling stays white. Render: `designs/…cave-stone-linen-recommended.jpg` | | |
 
 ## 2. Lighting
 
@@ -114,7 +113,7 @@ Chosen mix: **dark curtains and rug, cream bedding and cushions** (the "middle" 
 
 ## Order of work
 
-1. Walls: prep and prime, then hang 7943-1 stone behind the bed, 7947-1 rust on the window wall and 7944-3 rock on the rest (leave the ceiling white).
+1. Walls: prep and prime, then hang 7943-1 stone behind the bed and 7932-3 linen on every other wall (leave the ceiling white).
 2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
