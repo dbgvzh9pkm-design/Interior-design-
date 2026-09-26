@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:23:47.571100+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "efcac1743354db7dff071912001333232abf1b40096a7fcc3be3b1a736de7219",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "2d291c4205f37b9c17ec3161f8c3c93a92dc4766f124b4bfe6d2810e8b202309",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "48d226acdda6c781b9cc5700b3e6cc0884d77b2277124710f9eb4897fafecca2",
+      "bytes": 696458,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "cave stone view without rust",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "bd8352faaba383ba0069edc34be0bd9dedcfbbf1f7cb51c06c177e91284e5dd1",
+      "bytes": 396410,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7947-1 rust swatch",
+      "role": "style",
+      "purpose": "wall texture for the right wall",
+      "subject_id": "wallpaper-7947-1"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T142347_565556Z_cave-rust-tv-wall.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 709733,
+    "sha256": "8f06f2941e62503cb6bc6efb6805eb654c338dd1fb29844ff8e3ac9519114990",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2407
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
