@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T15:02:25.105638+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "fd31d1396247b07893f6dc9e383af6ecf0993f47728f2b0f25ddecb3461339e9",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "8b4d2b94ee61dd2a1a9a9d8aa7cec221bd81a544415d240cf07c6b8937f7f304",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "6637ed15fe6941a312326d04645d46551dad690b99f948d0abc35262c3cb9add",
+      "bytes": 631624,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "bed wall view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "f001c5b4b1997a72e13f817c1e92559cd67987d8a6689995d3201d863c32f231",
+      "bytes": 80949,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7943-1 stone swatch",
+      "role": "style",
+      "purpose": "wall texture for the bed wall",
+      "subject_id": "wallpaper-7943-1"
+    },
+    {
+      "sha256": "f19c6546198a10f2e45df9d66798fbbf7891df66899ac30b2a89beeafeb4509b",
+      "bytes": 42248,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7932-3 linen swatch",
+      "role": "style",
+      "purpose": "wall texture for all other walls",
+      "subject_id": "wallpaper-7932-3"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T150225_100098Z_final-bedwall.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 734819,
+    "sha256": "9aca1699c2685c0df6c897c31b44fdc49d23ac5166b600110a01d3d5b7f271e8",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2725
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

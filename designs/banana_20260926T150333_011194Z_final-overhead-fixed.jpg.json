@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T15:03:33.016525+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "b215997195c39ced4182a2453322110bdb4fe5e84428566a65ad30ec3017724d",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "452a2d65de72d181319edeb097942b3243a3c658d9cd94ff8639e67923969b94",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "a64a707aae39ece5765b6647eb154811468edc24c9760a7c026ce25250253538",
+      "bytes": 668087,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "final overhead view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "f001c5b4b1997a72e13f817c1e92559cd67987d8a6689995d3201d863c32f231",
+      "bytes": 80949,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7943-1 stone swatch",
+      "role": "style",
+      "purpose": "wall texture for the bed wall",
+      "subject_id": "wallpaper-7943-1"
+    },
+    {
+      "sha256": "f19c6546198a10f2e45df9d66798fbbf7891df66899ac30b2a89beeafeb4509b",
+      "bytes": 42248,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7932-3 linen swatch",
+      "role": "style",
+      "purpose": "wall texture for all other walls",
+      "subject_id": "wallpaper-7932-3"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T150333_011194Z_final-overhead-fixed.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 675696,
+    "sha256": "71d61b3a1cdf896147584a6b55bb9ddf78cd1786ed18122b67d8942d74c99e89",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2620
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
