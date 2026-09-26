@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T13:53:23.271548+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "a001e14686467f00fb0dafde7f30104c734d6b3145a94861264481a26e577dd1",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "3a47e5a099166638d11d9db642f0f12a6e9b4cb7b1d32dbe9e5b36763dab91c2",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "d0fde447f206c2e8902f2fcf9254c729a60fbda01041ee3420490de407d0f67c",
+      "bytes": 668617,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "slate view from the sofa",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T135323_266654Z_wallpaper-7958-3.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 655064,
+    "sha256": "01ed8d6d4f2a7d4e1e320a77eef269a6433ae1889c6d847735f3b1c0d34a62b8",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2108
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
