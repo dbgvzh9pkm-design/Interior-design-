@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T14:19:57.642519+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "8e174199cab7c6783f7f954ead8098cf72a5af4fbd7a868a4e94a528ad384b5f",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "77774b03db0ef0e664b2a08a94c3babd23be5b569ea741b067d6f58b0476033a",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "f03116c5db4f02d65d475f18fd995b3741abf6a2deb94481fe340c4f76ae58c3",
+      "bytes": 667527,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "middle-textiles 7958-3 view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "f001c5b4b1997a72e13f817c1e92559cd67987d8a6689995d3201d863c32f231",
+      "bytes": 80949,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7943-1 stone swatch",
+      "role": "style",
+      "purpose": "wall texture for the feature wall behind the bed",
+      "subject_id": "wallpaper-7943-1"
+    },
+    {
+      "sha256": "9a6c6ab9b70c093dbfacd1bbfb5a3dfe4320e268d196321d935fbab497eac072",
+      "bytes": 144004,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "7944-3 rock swatch",
+      "role": "style",
+      "purpose": "wall texture for all other walls",
+      "subject_id": "wallpaper-7944-3"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260926T141957_637239Z_cave-stone-7943-7944.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 696458,
+    "sha256": "48d226acdda6c781b9cc5700b3e6cc0884d77b2277124710f9eb4897fafecca2",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 3682
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
