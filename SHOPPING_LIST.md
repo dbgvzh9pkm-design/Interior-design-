@@ -19,7 +19,10 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec / what to ask for | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wallpaper **7958-3**, **all walls** (ceiling stays white) | Concrete-effect wallpaper, dark neutral grey with bold light/dark clouds (≈ #5E5B5E, per the catalogue room photo), **pattern repeat 60 cm**. Walls ≈ 41 m². Buy **≈ 10–11 standard rolls (0.53 × 10 m)** or **≈ 5 wide rolls (1.06 × 15.6 m)**, including a spare. **All rolls from the same batch number**; get a physical sample first | "7958-3" at your wallpaper shop | depends on shop |
+| ☐ | Wallpaper **7943-1 Real Stone**, left wall behind the bed (feature wall) | Brown / beige / rust stacked-stone print. Wall 614 × 287 cm ≈ 17.6 m² (6 wide strips). Buy **2 wide rolls (1.06 × 15.6 m)** (≈ 4 standard 0.53 × 10 m rolls). Hang the frames, shelf and sconces on top of it | "7943-1" V-Concept (JYJ) | depends on shop |
+| ☐ | Wallpaper **7947-1 Rust Paint**, far window wall | Orange rust patina with teal flecks. Wall 302 × 287 cm minus the window ≈ 7.7 m² (3 wide strips). Buy **1 wide roll** (≈ 2 standard rolls) | "7947-1" V-Concept (JYJ) | depends on shop |
+| ☐ | Wallpaper **7944-3 Marble (brown rock)**, right wall + corridor end | Taupe-brown veined stone in a vertical chevron. Right wall 509 cm ≈ 14.6 m² + corridor end ≈ 0.7 m² (6 wide strips). Buy **2 wide rolls** (≈ 5 standard rolls) | "7944-3" V-Concept (JYJ) | depends on shop |
+| | *For all three* | Walls ≈ 41 m² in total, **5 wide rolls**; each design has spare strips included. **Every roll of the same design from one batch number.** Get physical samples first: in the renders 7944-3 looks greener than the real paper, which is warmer brown. Ceiling stays white | | |
 
 ## 2. Lighting
 
@@ -72,14 +75,16 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ## 7. Bedding and textiles (buy 2 sets; you'll wash between guests)
 
+Chosen mix: **dark curtains and rug, cream bedding and cushions** (the "middle" render).
+
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Duvet covers × 2 | Charcoal washed linen or cotton, queen | "charcoal linen duvet cover queen" | $80–160 |
-| ☐ | Fitted + flat sheets × 2 sets | Grey or charcoal, cotton | – | $50–100 |
+| ☐ | Duvet covers × 2 | **Cream / off-white** washed linen or cotton, queen (white shows guests it's clean, and bleaches) | "cream linen duvet cover queen" | $80–160 |
+| ☐ | Fitted + flat sheets × 2 sets | White or cream, cotton | – | $50–100 |
 | ☐ | Duvet + 4 pillows | Hypoallergenic | – | $80–150 |
 | ☐ | **Mattress protector + pillow protectors** | Waterproof. An Airbnb must-have | "waterproof mattress protector queen" | $30–60 |
 | ☐ | Faux-fur throw | **Machine-washable**, brown | "washable faux fur throw brown" | $30–60 |
-| ☐ | Cushions | Grey / brown, removable covers | – | $40–80 |
+| ☐ | Cushions | **Cream** (bed and sofa), removable washable covers | – | $40–80 |
 | ☐ | Rug | Dark charcoal, low pile, **washable** or easy clean, **200 × 150 cm**, between the sofa and the TV | "washable rug charcoal 160x230" | $120–300 |
 
 ## 8. Wall art and decor
@@ -109,7 +114,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 ## Order of work
 
-1. Walls: prep and prime, then hang wallpaper 7958-3 on every wall (leave the ceiling white).
+1. Walls: prep and prime, then hang 7943-1 stone behind the bed, 7947-1 rust on the window wall and 7944-3 rock on the rest (leave the ceiling white).
 2. Swap the ceiling light; fit smart bulbs.
 3. Curtain tracks: window and around the bathroom glass.
 4. Big furniture: bed, sofa; fix the clothes rail and mirror to the wall.
