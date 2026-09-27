@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T19:20:52.861200+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "57e8a5a2cf5e65be9e02104ccf6bc45f3426b721a377e45fd99cc7af9486e51a",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "6583794fa121652cb17240f9c1ecbec3070ebf9a1375d01c706dfad4c8243834",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "ffa9f0941988659b4242d5efd6e5c3dc6dc8007887c48c31000abf42b85d2a97",
+      "bytes": 652590,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "user's door view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260927T192052_859039Z_curtains-oatmeal-door.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 655496,
+    "sha256": "cfa21e1cc00412c8fb8395622490acea47cec54ea1dbe2ff926e9379dca0645e",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2032
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

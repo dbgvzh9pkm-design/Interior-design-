@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T19:20:52.330267+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "b496602f996682ee7b45fb7b1d34edcede107efe6d8ce44cd60e0522c5bfaf3e",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "f3e033b9997528463168127cefdfd1d7ca6dafe8f9de19b89db598d4a4171b30",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "eeb7e91f57b5ee05ed0bdadc22107210419f90676a19bc07b658d180b84be81a",
+      "bytes": 668850,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "user's sofa view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260927T192052_328176Z_curtains-stone-sofa.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 666560,
+    "sha256": "169599f52f2928c188e1fbf3357d5acb6d4e9eb693dd826a9f93141786fa639b",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 1988
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

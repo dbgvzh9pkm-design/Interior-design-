@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T19:20:52.497408+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "57e8a5a2cf5e65be9e02104ccf6bc45f3426b721a377e45fd99cc7af9486e51a",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "480f826620752082943ca80bf975af9914dd822e026c3c33bef1b98750f7e0ef",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "eeb7e91f57b5ee05ed0bdadc22107210419f90676a19bc07b658d180b84be81a",
+      "bytes": 668850,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "user's sofa view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260927T192052_493997Z_curtains-oatmeal-sofa.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 667281,
+    "sha256": "eaa95bc6970e3a53f3dcbb82c4d9902690cb582891752f9f9cbf28522cf653d8",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2030
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
