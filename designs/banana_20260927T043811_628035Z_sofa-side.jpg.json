@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T04:38:11.630475+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "a4b662ba848d5b9337fec5841f728d7e7676a987af64a8250077245b28c3fd4c",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "39d0658249dfd1334b34abab5f64f803d9bb6147c3a9e1d11b491342496b17f2",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "0b4244d9861bb308f2edc14023a36f194d4571743a8677ea592febf5435c386a",
+      "bytes": 35804,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "sofa in room, front",
+      "role": "object",
+      "purpose": "the exact sofa to reproduce",
+      "subject_id": "cave-sofa"
+    },
+    {
+      "sha256": "274a153578cfe5dd0a8eeb4a8dffd5d3acbccbeb0f5c4d2bf53290e177c9d723",
+      "bytes": 14305,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "sofa in room, from above",
+      "role": "object",
+      "purpose": "the exact sofa shape from above",
+      "subject_id": "cave-sofa"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260927T043811_628035Z_sofa-side.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 289281,
+    "sha256": "e5f662885082628e1c9321074ce5c7b4bc4a05df7650df47880c71ab7311c503",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2385
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

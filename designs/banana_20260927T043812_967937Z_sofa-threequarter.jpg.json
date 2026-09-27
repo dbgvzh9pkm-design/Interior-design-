@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T04:38:12.970729+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "cbd4a2202956e4cff1f4c4659545184a9ce511a951828a042503281e82004e00",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "64f3b72d7276aa7a58c340c84632a3d402fbd3074694b4dc365ea52c71767721",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "0b4244d9861bb308f2edc14023a36f194d4571743a8677ea592febf5435c386a",
+      "bytes": 35804,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "sofa in room, front",
+      "role": "object",
+      "purpose": "the exact sofa to reproduce",
+      "subject_id": "cave-sofa"
+    },
+    {
+      "sha256": "274a153578cfe5dd0a8eeb4a8dffd5d3acbccbeb0f5c4d2bf53290e177c9d723",
+      "bytes": 14305,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "sofa in room, from above",
+      "role": "object",
+      "purpose": "the exact sofa shape from above",
+      "subject_id": "cave-sofa"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260927T043812_967937Z_sofa-threequarter.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 444842,
+    "sha256": "f20c3bae5f2383801f582784310dff54f3126108400985e8744d86d31eb1de38",
+    "width": 1024,
+    "height": 1024
+  },
+  "usage": {
+    "total_tokens": 2404
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
