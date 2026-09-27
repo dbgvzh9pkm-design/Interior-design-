@@ -66,15 +66,15 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Window curtains | Dark brown velvet, **blackout-lined**, 2 panels, **drop 285 cm** (buy 290 and hem; standard 250/260 is too short) | "dark brown velvet blackout curtains 290cm" | $70–180 |
+| ☐ | Window curtains | **Warm taupe-khaki linen-look fabric (the one from the shop photo, ≈ #8D826D)**, **blackout or blackout-lined**, 2 panels, **drop 285 cm** (buy 290 and hem; standard 250/260 is too short), about **2× the track width** in fabric (≈ 4.2 m) for deep folds | the shop fabric | $70–180 |
 | ☐ | Ceiling track (window) | Ceiling-mounted, **210 cm** | "ceiling curtain track" | $30–60 |
-| ☐ | Bathroom-glass curtains | Same fabric, **drop 285 cm**. Track is 234 + 117 = 351 cm, so **total panel width 5.3–7 m** (e.g. 4–5 panels of 140 cm). Split at the glass door | "blackout velvet curtain panels 290cm" | $150–300 |
+| ☐ | Bathroom-glass curtains | Same taupe-khaki fabric, **drop 285 cm**. Track is 234 + 117 = 351 cm, so **total panel width 5.3–7 m** (e.g. 4–5 panels of 140 cm). Split at the glass door | "blackout velvet curtain panels 290cm" | $150–300 |
 | ☐ | Bendable ceiling track (bathroom) | L-shaped: **234 cm** along the front of the glass + **117 cm** along the corridor side, 12 cm out from the glass, e.g. IKEA VIDGA with a corner piece | "bendable ceiling curtain track" | $50–120 |
 | ☐ | *Budget alternative* | Smoked or blackout **window film** on the glass (peels off) | "smoked privacy window film" | $25–60 |
 
 ## 7. Bedding and textiles (buy 2 sets; you'll wash between guests)
 
-Chosen mix: **dark curtains and rug, cream bedding and cushions** (the "middle" render).
+Chosen mix: **taupe-khaki curtains, charcoal rug, cream bedding and cushions**.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
