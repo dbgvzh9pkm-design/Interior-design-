@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1120 2110" width="1120" height="2110" font-family="Helvetica, Arial, sans-serif">
+<rect width="1120" height="2110" fill="#fbfaf7"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/></marker>
+<marker id="o" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"><circle cx="5" cy="5" r="4" fill="#b0472f"/></marker></defs>
+<style>
+.t{font-size:32px;font-weight:700;fill:#1c1f20}.h{font-size:21px;font-weight:700;fill:#1c1f20}.l{font-size:17px;fill:#4d5350}
+.d{stroke:#b0472f;stroke-width:2.5;fill:none}.g{stroke:#b0472f;stroke-width:1.2;stroke-dasharray:4 4;fill:none}
+.dt{font-size:22px;font-weight:700;fill:#b0472f;paint-order:stroke;stroke:#fbfaf7;stroke-width:5px}
+.tag{font-size:18px;font-weight:700;fill:#b0472f;paint-order:stroke;stroke:#fbfaf7;stroke-width:5px}
+.ld{stroke:#b0472f;stroke-width:1.5;fill:none}
+</style>
+<text x="40" y="60" class="t">Leather L-sofa: 250 × 250 cm</text>
+<text x="40" y="92" class="l">All sizes in cm, outside edges. Cognac aged top-grain leather, dark walnut plinth.</text>
+
+<text x="40" y="145" class="h">1 · FRONT</text>
+<image href="file:///tmp/claude-0/-home-user-Interior-design-/ed62fd0e-1ce6-59f0-ab49-9da9a2aa366a/scratchpad/sf-front.jpg" x="40" y="160" width="1024" height="500"/>
+<path class="g" d="M118 563 V615 M480 610 V615 M980 485 V655"/>
+<path class="d" d="M118 605 H480" marker-start="url(#a)" marker-end="url(#a)"/><text x="299" y="597" class="dt" text-anchor="middle">chaise 100</text>
+<path class="d" d="M118 645 H980" marker-start="url(#a)" marker-end="url(#a)"/><text x="549" y="637" class="dt" text-anchor="middle">250</text>
+<path class="g" d="M980 242 H1070 M980 292 H1020 M980 485 H1070"/>
+<path class="d" d="M1060 242 V485" marker-start="url(#a)" marker-end="url(#a)"/><text x="1068" y="370" class="dt">80</text>
+<path class="d" d="M1010 292 V485" marker-start="url(#a)" marker-end="url(#a)"/><text x="1016" y="420" class="dt">60</text>
+<path class="g" d="M118 438 H62 M118 563 H62"/>
+<path class="d" d="M72 438 V563" marker-start="url(#a)" marker-end="url(#a)"/><text x="66" y="510" class="dt" text-anchor="end">45</text>
+<path class="d" d="M908 272 H980" marker-start="url(#a)" marker-end="url(#a)"/><text x="944" y="262" class="dt" text-anchor="middle">15</text>
+
+<text x="40" y="705" class="h">2 · THREE-QUARTER</text>
+<image href="file:///tmp/claude-0/-home-user-Interior-design-/ed62fd0e-1ce6-59f0-ab49-9da9a2aa366a/scratchpad/sf-3q.jpg" x="40" y="720" width="1024" height="420"/>
+<path class="ld" d="M200 1085 L230 955" marker-end="url(#o)"/><text x="60" y="1110" class="tag">CHAISE 100 wide × 250 long · open end, no arm</text>
+<path class="ld" d="M700 1085 L700 960" marker-end="url(#o)"/><text x="620" y="1110" class="tag">SEATS 90 deep · seat 45 high</text>
+<path class="ld" d="M940 800 L925 875" marker-end="url(#o)"/><text x="860" y="790" class="tag">ARM 15 wide, 60 high</text>
+<path class="ld" d="M560 770 L600 812" marker-end="url(#o)"/><text x="400" y="762" class="tag">BACK 80 high</text>
+
+<text x="40" y="1185" class="h">3 · SIDE (arm end)</text>
+<image href="file:///tmp/claude-0/-home-user-Interior-design-/ed62fd0e-1ce6-59f0-ab49-9da9a2aa366a/scratchpad/sf-side.jpg" x="40" y="1200" width="1024" height="500"/>
+<path class="g" d="M188 1642 V1690 M915 1642 V1690"/>
+<path class="d" d="M188 1680 H915" marker-start="url(#a)" marker-end="url(#a)"/><text x="551" y="1672" class="dt" text-anchor="middle">250 (back to chaise front)</text>
+<path class="g" d="M188 1245 H140 M188 1312 H100 M188 1642 H100"/>
+<path class="d" d="M150 1245 V1642" marker-start="url(#a)" marker-end="url(#a)"/><text x="144" y="1450" class="dt" text-anchor="end">80</text>
+<path class="d" d="M110 1312 V1642" marker-start="url(#a)" marker-end="url(#a)"/><text x="104" y="1530" class="dt" text-anchor="end">60</text>
+<path class="g" d="M915 1407 H1000 M915 1608 H1030 M915 1642 H1030"/>
+<path class="d" d="M960 1407 V1642" marker-start="url(#a)" marker-end="url(#a)"/><text x="968" y="1530" class="dt">45</text>
+<path class="d" d="M1020 1608 V1642" marker-start="url(#a)" marker-end="url(#a)"/><text x="1028" y="1632" class="dt">12</text>
+
+<rect x="40" y="1735" width="1040" height="345" rx="10" fill="#f1ebe3"/>
+<text x="64" y="1775" class="h">Sizes for the maker (cm)</text>
+<g class="l" font-size="18">
+<text x="64" y="1812">Overall: 250 wide × 250 deep (L-shape)</text>
+<text x="64" y="1842">Sofa part (3 seats): 90 deep, seat cushions ≈ 60 deep</text>
+<text x="64" y="1872">Chaise: 100 wide × 250 long, open end (no arm)</text>
+<text x="64" y="1902">Arm: 1 only, on the right, 15 wide × 60 high</text>
+<text x="64" y="1932">Back height 80 · seat height 45 · walnut plinth 12</text>
+<text x="64" y="1962">Back cushions loose, ≈ 18 thick; removable covers</text>
+<text x="64" y="1992">Build in 2 pieces (sofa + chaise) to fit an 80 cm door</text>
+<text x="64" y="2022">Leather: cognac aged top-grain, matte</text>
+</g>
+</svg>
