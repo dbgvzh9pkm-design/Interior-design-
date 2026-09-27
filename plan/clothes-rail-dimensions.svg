@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 2000" width="1180" height="2000" font-family="Helvetica, Arial, sans-serif">
+<rect width="1180" height="2000" fill="#fbfaf7"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/></marker>
+<marker id="o" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"><circle cx="5" cy="5" r="4" fill="#b0472f"/></marker></defs>
+<style>
+.t{font-size:32px;font-weight:700;fill:#1c1f20}.h{font-size:21px;font-weight:700;fill:#1c1f20}.l{font-size:17px;fill:#4d5350}
+.d{stroke:#b0472f;stroke-width:2.5;fill:none}.g{stroke:#b0472f;stroke-width:1.2;stroke-dasharray:4 4;fill:none}
+.dt{font-size:22px;font-weight:700;fill:#b0472f;paint-order:stroke;stroke:#fbfaf7;stroke-width:5px}
+.tag{font-size:18px;font-weight:700;fill:#b0472f;paint-order:stroke;stroke:#fbfaf7;stroke-width:5px}
+.ld{stroke:#b0472f;stroke-width:1.5;fill:none}
+</style>
+<text x="40" y="60" class="t">Pipe clothes rail: build sheet</text>
+<text x="40" y="92" class="l">All sizes in cm, measured from the floor. Black iron pipe 3/4" (27 mm), walnut shelf.</text>
+
+<image href="file:///home/user/Interior-design-/designs/banana_20260927T175139_732179Z_rail-front.jpg" x="120" y="130" width="928" height="1152"/>
+<!-- left dims -->
+<path class="g" d="M322 340 H80 M365 453 H40 M365 1198 H40"/>
+<path class="d" d="M90 340 V1198" marker-start="url(#a)" marker-end="url(#a)"/><text x="82" y="770" class="dt" text-anchor="middle" transform="rotate(-90 82 770)">shelf top 180</text>
+<path class="d" d="M50 453 V1198" marker-start="url(#a)" marker-end="url(#a)"/><text x="42" y="900" class="dt" text-anchor="middle" transform="rotate(-90 42 900)">hanging bar 160</text>
+<!-- right dims -->
+<path class="g" d="M810 185 H1150 M810 230 H1090 M810 1198 H1150"/>
+<path class="d" d="M1080 230 V1198" marker-start="url(#a)" marker-end="url(#a)"/><text x="1072" y="700" class="dt" text-anchor="middle" transform="rotate(-90 1072 700)">wall fixings 200</text>
+<path class="d" d="M1130 185 V1198" marker-start="url(#a)" marker-end="url(#a)"/><text x="1122" y="700" class="dt" text-anchor="middle" transform="rotate(-90 1122 700)">total height 210</text>
+<!-- widths -->
+<path class="d" d="M322 305 H857" marker-start="url(#a)" marker-end="url(#a)"/><text x="590" y="297" class="dt" text-anchor="middle">shelf 110 × 30 × 3</text>
+<path class="g" d="M365 1198 V1250 M810 1198 V1250"/>
+<path class="d" d="M365 1240 H810" marker-start="url(#a)" marker-end="url(#a)"/><text x="588" y="1232" class="dt" text-anchor="middle">pipes 100 apart (outside)</text>
+<path class="ld" d="M560 480 L560 454" marker-end="url(#o)"/><text x="470" y="505" class="tag">bar: 3/4" pipe</text>
+<path class="ld" d="M880 1060 L740 1020" marker-end="url(#o)"/><text x="860" y="1080" class="tag">luggage rack</text><text x="860" y="1104" class="tag">60 wide × 45 high</text>
+
+<text x="40" y="1310" class="h">Side view</text>
+<image href="file:///home/user/Interior-design-/designs/banana_20260927T175140_299523Z_rail-side.jpg" x="40" y="1325" width="510" height="633"/>
+<path class="ld" d="M110 1350 L200 1370" marker-end="url(#o)"/><text x="50" y="1345" class="tag">wall flange</text>
+<path class="ld" d="M300 1350 L222 1362" marker-end="url(#o)"/><text x="300" y="1345" class="tag">30 off the wall</text>
+<path class="ld" d="M130 1470 L205 1455" marker-end="url(#o)"/><text x="50" y="1490" class="tag">shelf 30 deep</text>
+<path class="ld" d="M420 1560 L330 1515" marker-end="url(#o)"/><text x="360" y="1585" class="tag">bar at 160</text>
+
+<rect x="580" y="1300" width="560" height="660" rx="10" fill="#f1ebe3"/>
+<text x="604" y="1340" class="h">Parts (black iron pipe, 3/4")</text>
+<g class="l" font-size="17">
+<text x="604" y="1375">• 2 × floor flange + 2 × wall flange</text>
+<text x="604" y="1403">• 2 × uprights, floor to 200 (in 3 pieces each:</text>
+<text x="620" y="1427">  0–160, 160–180, 180–200, joined by tees)</text>
+<text x="604" y="1455">• 4 × tee (2 at 160 for the bar, 2 at 180)</text>
+<text x="604" y="1483">• 2 × 90° elbow at the top + 2 × 25 cm pipe to the wall</text>
+<text x="604" y="1511">• 1 × hanging bar ≈ 95 long, between the tees</text>
+<text x="604" y="1539">• Shelf sits on the 2 tees at 180, plus 2 black</text>
+<text x="620" y="1563">  L-brackets under its back edge, on the wall</text>
+<text x="604" y="1591">• Walnut shelf 110 × 30 × 3, 2 notches for the pipes</text>
+<text x="604" y="1619">• Folding luggage rack, 60 × 40, 45 high</text>
+<text x="604" y="1647">• 10–20 wooden hangers</text>
+</g>
+<text x="604" y="1695" class="h">Fixing</text>
+<g class="l" font-size="17">
+<text x="604" y="1728">• Screw the wall flanges into studs or with heavy</text>
+<text x="620" y="1752">  anchors, 4 screws each (clothes are heavy).</text>
+<text x="604" y="1780">• Screw the floor flanges down, or use rubber pads.</text>
+<text x="604" y="1808">• Clean the pipe, then spray matte black.</text>
+<text x="604" y="1836">• Bar 30 from the wall so hangers swing freely.</text>
+<text x="604" y="1864">• Hardware shops sell these parts as "pipe kits";</text>
+<text x="620" y="1888">  ask them to cut the pipe to the lengths above.</text>
+</g>
+</svg>

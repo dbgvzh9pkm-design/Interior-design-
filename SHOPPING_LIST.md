@@ -49,7 +49,7 @@ plug-in or a simple fixture swap; no ceiling LED channel or rewiring.
 
 | ✓ | Item | Spec | Search term | Approx. |
 |---|---|---|---|---|
-| ☐ | Wall-mounted clothes rail | **100 cm wide**, on the right wall, **black iron pipe brackets + walnut shelf on top**, fixed at about 170 cm height **into studs or with heavy-duty anchors** (clothes are heavy) | "industrial pipe clothes rail with shelf wall mounted" | $50–150 |
+| ☐ | Wall-mounted clothes rail | Black 3/4" iron pipe frame, **100 wide × 210 high**, uprights on floor flanges, fixed to the wall at 200 **into studs or heavy-duty anchors**; **walnut shelf 110 × 30 × 3 at 180**, **hanging bar at 160, 30 cm off the wall**. Build sheet: `plan/clothes-rail-dimensions.png` | "industrial pipe clothes rail with shelf" or a pipe kit from a hardware shop | $50–150 |
 | ☐ | Full-length mirror | Slim walnut-frame mirror, wall-mounted near the rail or door | "full length mirror walnut frame" | $50–150 |
 | ☐ | Luggage rack | Folding, wood with straps. Keeps suitcases off the bed | "folding luggage rack wood" | $30–60 |
 | ☐ | Hangers × 20 | Matching dark wood or black velvet | "black wooden hangers" | $20–35 |
