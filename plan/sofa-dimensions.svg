@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1620" width="1100" height="1620" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1100" height="1620" fill="#fbfaf7"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b0472f"/></marker>
+  </defs>
+  <style>
+    .t{font-size:32px;font-weight:700;fill:#1c1f20}
+    .h{font-size:20px;font-weight:700;fill:#1c1f20}
+    .l{font-size:16px;fill:#4d5350}
+    .n{font-size:15px;fill:#6b4428;font-weight:700}
+    .d{stroke:#b0472f;stroke-width:2;fill:none}
+    .g{stroke:#b0472f;stroke-width:1;stroke-dasharray:3 4;fill:none}
+    .dt{font-size:19px;font-weight:700;fill:#b0472f}
+    .body{fill:#c8895a;stroke:#6b4428;stroke-width:2.5}
+    .back{fill:#a8683d;stroke:#6b4428;stroke-width:2}
+    .cush{fill:#dba77c;stroke:#6b4428;stroke-width:1.5}
+    .base{fill:#4a3322}
+    .wall{fill:#8e9190}
+  </style>
+
+  <text x="50" y="62" class="t">Leather L-sofa: maker's drawing</text>
+  <text x="50" y="92" class="l">All sizes in cm, outside edges. Cognac aged top-grain leather, dark walnut plinth base.</text>
+
+  <!-- ============ 1. TOP VIEW  scale 3 px/cm, origin (170,200) ============ -->
+  <text x="50" y="150" class="h">1 · FROM ABOVE (as it sits in the room)</text>
+  <rect x="160" y="178" width="780" height="10" class="wall"/>
+  <text x="550" y="172" class="l" text-anchor="middle">WINDOW WALL (sofa 15 cm off the wall)</text>
+  <!-- footprint -->
+  <path class="body" d="M170 200 H920 V680 H650 V470 H170 Z"/>
+  <!-- backrests: along window (18 deep), along right wall (18 wide) -->
+  <rect x="170" y="200" width="750" height="54" class="back"/>
+  <rect x="866" y="254" width="54" height="426" class="back"/>
+  <!-- arm at the front end of the return (15) -->
+  <rect x="650" y="635" width="216" height="45" class="back"/>
+  <!-- cushions -->
+  <rect x="176" y="256" width="468" height="201" rx="12" class="cush"/>
+  <rect x="650" y="256" width="212" height="201" rx="12" class="cush"/>
+  <rect x="650" y="462" width="212" height="168" rx="12" class="cush"/>
+  <text x="410" y="350" class="n" text-anchor="middle">LONG LOUNGE CUSHION ≈156 × 67</text>
+  <text x="410" y="374" class="l" text-anchor="middle">legs stretch this way, parallel to the window</text>
+  <path d="M560 400 H250" stroke="#6b4428" stroke-width="3" marker-end="url(#a)"/>
+  <text x="756" y="350" class="n" text-anchor="middle">CORNER</text>
+  <text x="756" y="372" class="n" text-anchor="middle">≈72 × 67</text>
+  <text x="756" y="540" class="n" text-anchor="middle">SEAT</text>
+  <text x="756" y="562" class="n" text-anchor="middle">≈72 × 53</text>
+  <text x="756" y="664" class="l" text-anchor="middle" fill="#fbfaf7">ARM 15</text>
+  <text x="530" y="236" class="l" text-anchor="middle" fill="#fbfaf7">BACKREST ≈18 thick</text>
+  <text x="900" y="470" class="l" fill="#fbfaf7" transform="rotate(90 900 470)" text-anchor="middle">BACKREST</text>
+  <text x="186" y="426" class="n">OPEN END</text>
+  <text x="186" y="446" class="l">no arm</text>
+  <!-- directions -->
+  <text x="60" y="560" class="l" text-anchor="middle">TV</text>
+  <path d="M150 554 H80" stroke="#8e9190" stroke-width="2" marker-end="url(#a)"/>
+  <text x="785" y="742" class="l" text-anchor="middle">↓ bed ≈44 cm away</text>
+  <text x="958" y="440" class="l" transform="rotate(90 958 440)" text-anchor="middle">RIGHT WALL</text>
+  <!-- dims -->
+  <path class="g" d="M170 470 V800 M920 680 V800"/>
+  <path class="d" d="M170 790 H920" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="505" y="776" width="80" height="28" fill="#fbfaf7"/><text x="545" y="798" class="dt" text-anchor="middle">250</text>
+  <path class="g" d="M170 200 H110 M170 470 H110"/>
+  <path class="d" d="M120 200 V470" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="112" y="310" class="dt" text-anchor="end">90</text>
+  <path class="g" d="M920 200 H1010 M920 680 H1010"/>
+  <path class="d" d="M1000 200 V680" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="1008" y="560" class="dt">160</text>
+  <path class="g" d="M650 680 V720"/>
+  <path class="d" d="M650 712 H920" marker-start="url(#a)" marker-end="url(#a)"/>
+  <rect x="765" y="700" width="40" height="0" fill="none"/>
+  <text x="700" y="706" class="dt" text-anchor="middle">90</text>
+
+  <!-- ============ 2. FRONT VIEW scale 3, floor y=1080, left x=170 ============ -->
+  <text x="50" y="835" class="h">2 · FROM THE FRONT (standing in the room, facing the window)</text>
+  <line x1="130" y1="1080" x2="960" y2="1080" stroke="#1c1f20" stroke-width="2"/>
+  <!-- back behind, full width to 80 -->
+  <rect x="170" y="840" width="750" height="105" class="back"/>
+  <!-- seat body left part (open end) seat top 45 -> y=945 ; plinth 0..12 -->
+  <rect x="170" y="945" width="480" height="99" class="body"/>
+  <rect x="176" y="931" width="468" height="18" rx="8" class="cush"/>
+  <!-- return front with arm face to 60 -> y=900 -->
+  <rect x="650" y="900" width="270" height="144" class="body"/>
+  <rect x="650" y="900" width="270" height="12" fill="#b77a4d"/>
+  <rect x="170" y="1044" width="750" height="36" class="base"/>
+  <rect x="188" y="1068" width="14" height="12" fill="#1c1f20"/><rect x="888" y="1068" width="14" height="12" fill="#1c1f20"/>
+  <text x="410" y="1000" class="l" text-anchor="middle" fill="#3a2414">open end, seat faces you</text>
+  <text x="785" y="980" class="l" text-anchor="middle" fill="#3a2414">front of the arm</text>
+  <!-- dims -->
+  <path class="g" d="M920 840 H1010 M920 900 H970 M920 1080 H1010"/>
+  <path class="d" d="M1000 840 V1080" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="1008" y="966" class="dt">80</text>
+  <path class="d" d="M960 900 V1080" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="966" y="1040" class="dt">60</text>
+  <path class="g" d="M170 945 H110"/>
+  <path class="d" d="M120 945 V1080" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="112" y="1018" class="dt" text-anchor="end">45</text>
+  <text x="112" y="1040" class="l" text-anchor="end">seat</text>
+  <path class="g" d="M170 1044 H140"/>
+  <path class="d" d="M150 1044 V1080" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="142" y="1068" class="l" text-anchor="end">12</text>
+  <path class="d" d="M170 1120 H920" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="545" y="1112" class="dt" text-anchor="middle">250</text>
+  <path class="d" d="M650 1150 H920" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="785" y="1142" class="dt" text-anchor="middle">90</text>
+
+  <!-- ============ 3. SIDE SECTION scale 3, floor y=1480, back at x=170 ============ -->
+  <text x="50" y="1220" class="h">3 · FROM THE OPEN END (side)</text>
+  <line x1="130" y1="1480" x2="520" y2="1480" stroke="#1c1f20" stroke-width="2"/>
+  <rect x="170" y="1240" width="54" height="204" class="back"/>
+  <rect x="224" y="1345" width="216" height="99" class="body"/>
+  <rect x="226" y="1331" width="210" height="18" rx="8" class="cush"/>
+  <rect x="170" y="1444" width="270" height="36" class="base"/>
+  <text x="120" y="1300" class="l" text-anchor="end">window</text>
+  <text x="120" y="1320" class="l" text-anchor="end">side</text>
+  <path class="d" d="M170 1520 H440" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="305" y="1512" class="dt" text-anchor="middle">90</text>
+  <path class="d" d="M170 1550 H224" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="197" y="1576" class="l" text-anchor="middle">18</text>
+  <path class="d" d="M224 1550 H440" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="332" y="1576" class="l" text-anchor="middle">seat depth ≈72</text>
+  <path class="g" d="M440 1240 H520 M440 1345 H470"/>
+  <path class="d" d="M510 1240 V1480" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="518" y="1366" class="dt">80</text>
+  <path class="d" d="M462 1345 V1480" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="470" y="1420" class="dt">45</text>
+
+  <!-- notes -->
+  <text x="600" y="1260" class="h">Build notes</text>
+  <text x="600" y="1292" class="l">• L-shape: 250 along the window × 160 along the right wall.</text>
+  <text x="600" y="1318" class="l">• Long side: OPEN left end, no arm (a lounge cushion).</text>
+  <text x="600" y="1344" class="l">• Return: ONE arm, at its front end (bed side).</text>
+  <text x="600" y="1370" class="l">• Backrest top 80 (stays below the 110 window sill).</text>
+  <text x="600" y="1396" class="l">• Seat 45 high, plinth 12, cushions ≈12–15 thick.</text>
+  <text x="600" y="1422" class="l">• Loose back and seat cushions, removable covers.</text>
+  <text x="600" y="1448" class="l">• Cognac aged leather, dark walnut plinth.</text>
+  <text x="600" y="1474" class="l">• Make it in 2 pieces to fit through the 80 cm corridor.</text>
+</svg>
