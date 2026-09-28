@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:57:30.866928+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "4:5",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "0295f7b3502b1b01fb6481765be105087279b12aecab6e11346f77532c40f97a",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "adf54a293a7da6052b59d4e239227928ccf1499288165598596d60f6bc365a1e",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "a261fddbcd12c251569ac4fb169934dfcbc88b0c055322e4238dc76e4bd9d1a9",
+      "bytes": 713678,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "room style reference",
+      "role": "style",
+      "purpose": "room mood, walls, lighting and bedding style",
+      "subject_id": "cave-room"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T145730_862436Z_newbed-platform.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 707035,
+    "sha256": "5e6113cda0ea4ad17dd7fa0385b29897126b0e08d8fdba18516f2ed7f4035054",
+    "width": 928,
+    "height": 1152
+  },
+  "usage": {
+    "total_tokens": 2225
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

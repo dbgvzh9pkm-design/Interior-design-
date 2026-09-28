@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:57:30.611875+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "4:5",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "b4e596c36012cc7d157123237b6093353317e31233e47c14e3c80f0e530b8460",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "bc32006626c585f366fd05ce9bf1f5558eb4d23f07b4af8bb761e5ff07e6f8bc",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "a261fddbcd12c251569ac4fb169934dfcbc88b0c055322e4238dc76e4bd9d1a9",
+      "bytes": 713678,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "room style reference",
+      "role": "style",
+      "purpose": "room mood, walls, lighting and bedding style",
+      "subject_id": "cave-room"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T145730_608521Z_newbed-panelwall.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 712271,
+    "sha256": "9295053dd20d7e10632f18ddb25ad4700c814ee9889aa84f9fbc2e3b951ded96",
+    "width": 928,
+    "height": 1152
+  },
+  "usage": {
+    "total_tokens": 2322
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
