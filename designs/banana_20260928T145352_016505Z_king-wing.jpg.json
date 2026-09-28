@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:53:52.020636+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "a0fbcacc01a643a894d65657b99d759759033656d2310bb0fb13875c1b4b347b",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "79a43899e29adb1fb94c02ba94f06d5d295cd89d8cd25be0a31d4fef0e548cf9",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "fc3f9aaaf42bb1fb3bf80303eb7ad74be558011e50c96ef3df755801298b969f",
+      "bytes": 725434,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "wing bed view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T145352_016505Z_king-wing.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 710805,
+    "sha256": "c492ffff2e3d557ceecf1b6596a4eff286c1a82fcbdcb836ba7ecfdf811cb566",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2226
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

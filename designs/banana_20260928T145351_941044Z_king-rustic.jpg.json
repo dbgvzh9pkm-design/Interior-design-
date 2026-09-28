@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:53:51.944481+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "c6e5e0a3b1ebbef5db18eca64456d0c74128657036cd3619463b57ff4940676c",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "2a4429a5955c3d70d41c92abb365be777da86fb604da2ff881ec279b4c8768da",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "6b4f53a621b23d3453fc5b26652f2f830baef1488c05549f3cce17d870e29424",
+      "bytes": 717113,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "rustic bed view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T145351_941044Z_king-rustic.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 702627,
+    "sha256": "f1b2eb96709bccb4c060c705d3ae3b62fff20b7eb6ea39a9fb6509cb0e22e083",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2171
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

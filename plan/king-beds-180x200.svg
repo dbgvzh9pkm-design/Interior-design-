@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 2860" width="1180" height="2860" font-family="Helvetica, Arial, sans-serif">
+<rect width="1180" height="2860" fill="#fbfaf7"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e0643f"/></marker></defs>
+<style>
+.t{font-size:32px;font-weight:700;fill:#1c1f20}.h{font-size:24px;font-weight:700;fill:#1c1f20}.l{font-size:18px;fill:#3d4240}.b{font-weight:700;fill:#1c1f20}
+.d{stroke:#e0643f;stroke-width:3;fill:none}.dt{font-size:24px;font-weight:700;fill:#ffd9c9;paint-order:stroke;stroke:#1c1f20;stroke-width:5px}
+</style>
+<text x="30" y="60" class="t">King beds, 180 × 200 mattress</text>
+<text x="30" y="92" class="l">Three designs for the room. All sizes in cm. Mattress top ≈ 55 from the floor.</text>
+
+<g transform="translate(30,120)">
+<image href="file:///home/user/Interior-design-/designs/banana_20260928T145454_160566Z_king-front-leather.jpg" width="696" height="864"/>
+<path class="d" d="M141 205 H555" marker-start="url(#a)" marker-end="url(#a)"/><text x="348" y="195" class="dt" text-anchor="middle">190</text>
+<path class="d" d="M110 245 V725" marker-start="url(#a)" marker-end="url(#a)"/><text x="100" y="490" class="dt" text-anchor="end">130</text>
+</g>
+<text x="760" y="160" class="h">1 · Cognac leather</text>
+<g class="l"><text x="760" y="200"><tspan class="b">Overall</tspan> 190 wide × 212 long</text>
+<text x="760" y="230"><tspan class="b">Headboard</tspan> 190 × 130 high,</text>
+<text x="760" y="254">9 vertical channels</text>
+<text x="760" y="284"><tspan class="b">Frame</tspan> upholstered, 30 high</text>
+<text x="760" y="314"><tspan class="b">Legs</tspan> walnut, 8 high</text>
+<text x="760" y="344"><tspan class="b">Leather</tspan> cognac, aged, matte</text>
+<text x="760" y="384">+ matches the sofa</text>
+<text x="760" y="410">− a lot of cognac next to it</text>
+<text x="760" y="436">− leather can scratch</text>
+<text x="760" y="476" class="b">Search: "king channel-tufted</text>
+<text x="760" y="500" class="b">leather bed cognac 180x200"</text></g>
+
+<g transform="translate(30,1020)">
+<image href="file:///home/user/Interior-design-/designs/banana_20260928T145454_707110Z_king-front-rustic.jpg" width="696" height="864"/>
+<path class="d" d="M168 150 H533" marker-start="url(#a)" marker-end="url(#a)"/><text x="350" y="140" class="dt" text-anchor="middle">196</text>
+</g>
+<text x="760" y="1060" class="h">2 · Rustic solid wood</text>
+<g class="l"><text x="760" y="1100"><tspan class="b">Overall</tspan> 196 wide × 215 long</text>
+<text x="760" y="1130"><tspan class="b">Posts</tspan> 4 × oak, 12 × 12</text>
+<text x="760" y="1160"><tspan class="b">Headboard</tspan> 120 high, 5 wide</text>
+<text x="760" y="1184">rough planks + 2 iron straps</text>
+<text x="760" y="1214"><tspan class="b">Footboard</tspan> 50 high, 2 planks</text>
+<text x="760" y="1244"><tspan class="b">Side rails</tspan> beams 25 deep</text>
+<text x="760" y="1284">+ most cave / lodge feel</text>
+<text x="760" y="1310">+ toughest for guests</text>
+<text x="760" y="1336">+ can be built (like the</text>
+<text x="760" y="1360">   bed build guide)</text>
+<text x="760" y="1386">− footboard: shins in a tight room</text>
+<text x="760" y="1426" class="b">Search: "rustic solid wood</text>
+<text x="760" y="1450" class="b">king bed frame plank headboard"</text></g>
+
+<g transform="translate(30,1920)">
+<image href="file:///home/user/Interior-design-/designs/banana_20260928T145456_200626Z_king-front-wing.jpg" width="696" height="864"/>
+<path class="d" d="M165 262 H533" marker-start="url(#a)" marker-end="url(#a)"/><text x="349" y="252" class="dt" text-anchor="middle">200</text>
+<path class="d" d="M140 303 V794" marker-start="url(#a)" marker-end="url(#a)"/><text x="130" y="555" class="dt" text-anchor="end">140</text>
+</g>
+<text x="760" y="1960" class="h">3 · Charcoal boucle wing</text>
+<g class="l"><text x="760" y="2000"><tspan class="b">Overall</tspan> 200 wide × 212 long</text>
+<text x="760" y="2030"><tspan class="b">Headboard</tspan> 140 high,</text>
+<text x="760" y="2054">curved wings 10 deep</text>
+<text x="760" y="2084"><tspan class="b">Frame</tspan> upholstered, 30 high</text>
+<text x="760" y="2114"><tspan class="b">Base</tspan> walnut plinth, 5 high</text>
+<text x="760" y="2154">+ most luxurious, hotel feel</text>
+<text x="760" y="2180">+ strong contrast with the rug</text>
+<text x="760" y="2206">− boucle shows stains / pilling</text>
+<text x="760" y="2232">− widest: 72 cm walkway left</text>
+<text x="760" y="2272" class="b">Search: "boucle wingback</text>
+<text x="760" y="2296" class="b">king bed charcoal 180x200"</text></g>
+
+<rect x="30" y="2800" width="0" height="0"/>
+<text x="30" y="2820" class="l">Room fit: 302 wide. With a 30 cm nightstand on the right, the walkway on the left is 302 − 30 − bed width (72–82 cm).</text>
+</svg>
