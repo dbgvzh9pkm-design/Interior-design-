@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:12:25.666966+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "b499c172497c4dd1eaf500d8ec55cd80b24fd7a2bd8967929f4f9a90f2433dcd",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "ec724db415c739f2b545889d7e68ee39d66923d5ae9c938cb577a27c27f49a48",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "cdf3f33224b7cd60f872f2f4fc81a20cc9190ae58e442cd73e3154e703df016d",
+      "bytes": 657537,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "bed wall view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    },
+    {
+      "sha256": "f5b83e8904e73e6b1738232d0df9864f9da1c3667ecec7daa34479a2fc674ec7",
+      "bytes": 147380,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "shop rug",
+      "role": "style",
+      "purpose": "rug pattern and colour",
+      "subject_id": "red-rug"
+    },
+    {
+      "sha256": "d82dcfcabdf523c3a2e3edc35a3f82ac9142e5ae435ae136175d8025e1b0c875",
+      "bytes": 145982,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "shop curtain fabric",
+      "role": "style",
+      "purpose": "curtain fabric colour and texture",
+      "subject_id": "curtain-fabric"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T141225_661777Z_bedwall-wing.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 725434,
+    "sha256": "fc3f9aaaf42bb1fb3bf80303eb7ad74be558011e50c96ef3df755801298b969f",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2850
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:11:15.428378+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "6dd0e44c8957e7f551553554ace40f47cfede074a2de12e8278568b86b67a93d",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "d774dde927f97c9f1f98ed557e255eea4c5341fbe3f6f93319fc0a2c168ae3b9",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "df13b823d8c3d4044281b6caae41f08b2a1ed7416799c14c2c4654105da743d9",
+      "bytes": 693304,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "red rug door view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T141115_423853Z_bed-rustic.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 700077,
+    "sha256": "decc23ca2a5fe63de4415d4c8f9b3cae8ae9f2c240f68448c8fe14ea58bc49cf",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2184
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}

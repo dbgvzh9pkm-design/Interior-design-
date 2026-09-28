@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T14:11:13.279840+00:00",
+  "provider": "Google Gemini Developer API",
+  "model": "gemini-3-pro-image",
+  "operation": "edit",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "store": false,
+  "prompt_sha256": "72e969539d67c4b22c70e21039468593ed6c59366a027ac7737b2cd5ff072837",
+  "visual_brief_schema_version": "banana.visual-brief.v1",
+  "brief_sha256": "fd3a2e2d25e7a9245eeda702570940a09752282ef856a27a6b35cec1fff5192b",
+  "brief_source": "supplied",
+  "references": [
+    {
+      "sha256": "df13b823d8c3d4044281b6caae41f08b2a1ed7416799c14c2c4654105da743d9",
+      "bytes": 693304,
+      "mime_type": "image/jpeg",
+      "disclosure_alias": "red rug door view",
+      "role": "object",
+      "purpose": "scene to edit: keep camera, layout and finishes",
+      "subject_id": "user-bedroom"
+    }
+  ],
+  "artifact": {
+    "path": "/home/user/Interior-design-/designs/banana_20260928T141113_275624Z_bed-wing.jpg",
+    "mime_type": "image/jpeg",
+    "bytes": 702748,
+    "sha256": "abe14b6e907295393056c9fa7290236e5ba096fd091a76e2efae2c564e86fd73",
+    "width": 768,
+    "height": 1376
+  },
+  "usage": {
+    "total_tokens": 2128
+  },
+  "grounding_used": false,
+  "provenance_notice": "Google documents SynthID on Gemini-generated images. Post-processing may alter provenance metadata."
+}
